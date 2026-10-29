@@ -1,0 +1,87 @@
+{
+    "schema": 1,
+    "from": "1.0.1",
+    "to": "1.0.2",
+    "php_min": "8.0.0",
+    "db_version": "20261028100000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "6b49ab532d3d67168264f06501f329a14c64404e27a9d9df7e1dfb6973edcbbe",
+            "after": "e080b889a3d7c74879a17b81d81e1442784d65da78a157236d21b12f8fd4d629",
+            "size": 3136
+        },
+        {
+            "op": "modify",
+            "path": "app/common/command/ReleaseBuild.php",
+            "before": "3e6ad620e3fbccd980ca525c41432a7d5cd3b77a553d6fd8bcbef9397fb616dd",
+            "after": "141530cb5aaa8496c967cf322b80fdcbd3a1535ac224aad1f97a09a999ba6600",
+            "size": 44564
+        },
+        {
+            "op": "modify",
+            "path": "app/common/command/ReleaseVerify.php",
+            "before": "194c1204cc9c1983f03d75c02f94b0f0ecbcf0004543360b05a99f56a63964d1",
+            "after": "1bd7301a2bbf77c0ed0b4534d3bf5e5db2ad1618357a44717696c5dedf4f22ad",
+            "size": 25681
+        },
+        {
+            "op": "modify",
+            "path": "app/common/command/UpdateSelftest.php",
+            "before": "a88ad16da7e2c2000826cefd73ef342048142706686ea79916187ceb5b415011",
+            "after": "38f887b503ec0469ebf7498c2e1bdad6c37e73a6ad4ec11b40c32a3a11b032e0",
+            "size": 69276
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/WechatPay.php",
+            "before": "33741b82a67db80ee9e4cec85253b3e8ed68d46fe60cdf3c52399fecdde6822b",
+            "after": "964d3a944b578a5214ab9cfe31b1a8b73891c481730a7a870c7d19aaa75e1990",
+            "size": 6949
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/payment/PaymentHttpClient.php",
+            "before": "46222e73b75ef9ba5a904fd55c99ad00905f10473ac04b9197c97e769f112d80",
+            "after": "8f23e219180aec36419befb5325357556ae257dbc7572cde8eefb09299da6615",
+            "size": 2701
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/MediaUploadService.php",
+            "before": "cd06bfc682c4b8bae602a70ac0b27e32cb136a89e883090b88cfb7f5091ac114",
+            "after": "428cba445f51bbef011af7f4b6544b4b0d208e4b7cf44a5df16e2221fea0a8ce",
+            "size": 20623
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/update/HttpClient.php",
+            "before": "092f7735d1a6c3a9fbfc9d4d9d9dea40d798757d07cbeae984c59e73be7d3726",
+            "after": "9692b07801d10cad286f22438c6055e9b76a8fd1c650e588b5a0468e5617da43",
+            "size": 16335
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/update/LocalSource.php",
+            "before": "074f8f0516268842dd23f518db009500e4fa32e794bec92ba399ed2cebb61095",
+            "after": "f83d7da2c9c853522731d9c33520a38b7f838421f3fc8413fb69cfe120ebde4d",
+            "size": 4588
+        },
+        {
+            "op": "modify",
+            "path": "config/update.php",
+            "before": "71ef161933b6486c0cab53f11ee56d5d78ccd4cb4ec3f18837cebd3d5f3613d9",
+            "after": "d120f8a36dd8bd73f0f1d455d1e68a12ed91704a4c7f58050b2329b42628b94e",
+            "size": 4741
+        },
+        {
+            "op": "modify",
+            "path": "docs/online-update.md",
+            "before": "628e376938684798f9bcea10acb425b7698f24f9b767595deb9fafbf66d3a518",
+            "after": "b339af6f1c9e8b9a2468a27ec5f0b4f534bf8e93ec5f9f2087cd9a82c6c7f864",
+            "size": 8782
+        }
+    ]
+}
