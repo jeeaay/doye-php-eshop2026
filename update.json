@@ -2,14 +2,14 @@
     "schema": 1,
     "latest": "1.0.1",
     "php_min": "8.0.0",
-    "signed_at": "2026-10-29T11:19:04+08:00",
+    "signed_at": "2026-10-29T11:41:48+08:00",
     "steps": [
         {
             "from": "1.0.0",
             "to": "1.0.1",
             "asset": "delta-1.0.0-to-1.0.1.zip",
             "asset_size": 88410,
-            "asset_sha256": "ccc36b4b594db078941fe714bb86544b03536b298d91d399671b918d95254b08",
+            "asset_sha256": "cc83f5f834373f406c5e633ebf504d272df39e5037d3f86bb2ae09578175c95d",
             "ops_asset": "delta-1.0.0-to-1.0.1.json",
             "ops_sha256": "c044cc0b80b6a06d9ff578b5581cbcccf2bc7cd05e9e67bcd8cfbbb05a01d748",
             "ops_count": 16,
