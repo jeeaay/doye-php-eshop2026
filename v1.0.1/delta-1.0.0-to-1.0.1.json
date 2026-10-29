@@ -1,0 +1,122 @@
+{
+    "schema": 1,
+    "from": "1.0.0",
+    "to": "1.0.1",
+    "php_min": "8.0.0",
+    "db_version": "20261028100000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "f9a2d3796e03876b19fb0f9c7b6907904ebbf1ac136462a6e2efc07948f175dc",
+            "after": "6b49ab532d3d67168264f06501f329a14c64404e27a9d9df7e1dfb6973edcbbe",
+            "size": 2301
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Setting.php",
+            "before": "693d76381c0720dfbd863eab5a3709bc6f357371aa7b7a2f1d789d3f3b31bd83",
+            "after": "f19959c9f200a64f92bc2a7cf819f351cf952874368dfc53d1ab5f988da9edf1",
+            "size": 4233
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Update.php",
+            "before": "bebebfc46f2aa28b79e4f14b52a30635844e5ac42e15758444cd0c5b956a5f91",
+            "after": "50890e466a6c8cdb5737d4f8939860d4af2b7c48b9e4bab2e1d58b0701c6ba06",
+            "size": 8149
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/route/admin.php",
+            "before": "542b35dadc4d63dfbb0253f1fd9aa338ed8814a8fd7054e0826e9650ea3003e3",
+            "after": "8e3fedfe33480169ac44b0b314514c4e259da4f6c20b6279ac424a90797cbfae",
+            "size": 7688
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/layout/base.html",
+            "before": "180bb0c62349de8b9d79d0ac4032c86dd5a859f9a0194acdbeb32682f7c3e1db",
+            "after": "dead79b26821f507c3288d44c5ae75e49cd3a0200d4a7280bc0e7cb09d969f74",
+            "size": 7326
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/setting/index.html",
+            "before": "998c40d03b9fb94c9bca35c5bb4b7326ad7bfdf4e25f4f9289db1727ff4b172e",
+            "after": "0464173efae2dcb5b98a6dd942d7e1f8fbc158a9e9d468d7b5d5a7fb3f3b0e57",
+            "size": 48230
+        },
+        {
+            "op": "delete",
+            "path": "app/admin/view/update/index.html",
+            "before": "4c784ff8061ee9423915d9199611fefa27702b105b79052da9d19203243a98cd",
+            "after": null,
+            "size": 0
+        },
+        {
+            "op": "modify",
+            "path": "app/common/command/ReleaseBuild.php",
+            "before": "3ec67dac5c6c63f1bf6b577b2b0a3b4a4939ca03990c158f2f838299b922770c",
+            "after": "3e6ad620e3fbccd980ca525c41432a7d5cd3b77a553d6fd8bcbef9397fb616dd",
+            "size": 42090
+        },
+        {
+            "op": "modify",
+            "path": "app/common/command/UpdateSelftest.php",
+            "before": "a1dc0a34b6c7a55832f1da0250093049b94716b7aa71d710996d324aa6191cba",
+            "after": "a88ad16da7e2c2000826cefd73ef342048142706686ea79916187ceb5b415011",
+            "size": 69257
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/UpdateService.php",
+            "before": "74cc4b737087b870f933d063468b61f72ebf3319629f83f258deacacada42205",
+            "after": "d0087d7313f98c2ce37296cb9d8e9412c2c4a42f87fb70721c7056d99c9dd203",
+            "size": 59226
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/update/HttpSource.php",
+            "before": "c12f48788c8e55dcd1639b14f20cb58b425aad36e963213f6a783d1b483de90b",
+            "after": "5d3061a43efe3012a99c1417a53c62fefe1e766bfa69cc0051e9d8941defa73f",
+            "size": 4835
+        },
+        {
+            "op": "modify",
+            "path": "config/setting.php",
+            "before": "6b43a336b9aead9390f4d5bb05eae54547305e98db4f1823fe2405172afa028f",
+            "after": "d98ecf042a8c880c9e2b978149a057b4b2fd65b2c178e6dbd7d0af344e920880",
+            "size": 7529
+        },
+        {
+            "op": "modify",
+            "path": "config/update.php",
+            "before": "af099afae640c94b2d2dafaa438216a40c026262c21db9c2bd9c84e379fcd6a6",
+            "after": "71ef161933b6486c0cab53f11ee56d5d78ccd4cb4ec3f18837cebd3d5f3613d9",
+            "size": 4672
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "f6d6a131ab2036aca3a1ab7b854d2f55c19ecf43794436fb825572bc0cd85416",
+            "after": "ace541aea68e5e1ce766085b311308117918c1fcac282e11d6acf9ca4f2d996e",
+            "size": 20643
+        },
+        {
+            "op": "add",
+            "path": "docs/online-update.md",
+            "before": null,
+            "after": "628e376938684798f9bcea10acb425b7698f24f9b767595deb9fafbf66d3a518",
+            "size": 8305
+        },
+        {
+            "op": "modify",
+            "path": "public/static/css/style.css",
+            "before": "c02e559e6c1bd029e18a7664cd0c11bba20299f2f5750e2241b47c0281c3d854",
+            "after": "928f140ab8daaedfeb844463e31f31e4d0aefe1ce30d98624b489dc0fba59ee7",
+            "size": 9483
+        }
+    ]
+}
