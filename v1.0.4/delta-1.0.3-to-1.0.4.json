@@ -1,0 +1,31 @@
+{
+    "schema": 1,
+    "from": "1.0.3",
+    "to": "1.0.4",
+    "php_min": "8.0.0",
+    "db_version": "20261028100000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "8cfc8d61d40d6c87c5451f3ac87110cb8e23e8036c711ff68f58979657989361",
+            "after": "a3218df024d80909352c34852f5e1efe5d481cda189aa6dd656785857236fc00",
+            "size": 4291
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/update/UpdateMigrator.php",
+            "before": "71a6ec6c05d2a3a4f54a69d666e17d7533ff49fc3b6d3b16d898cac34460e54e",
+            "after": "7d8e6886d7d74c012db41dec69d1a5ebd9c3fd5e2d226efcef37f441bab22734",
+            "size": 7146
+        },
+        {
+            "op": "modify",
+            "path": "config/update.php",
+            "before": "d120f8a36dd8bd73f0f1d455d1e68a12ed91704a4c7f58050b2329b42628b94e",
+            "after": "0bd529c8dfca26ac896c05ce8f05358efafd7b7cdb152ce400836dad4da60c37",
+            "size": 4978
+        }
+    ]
+}
