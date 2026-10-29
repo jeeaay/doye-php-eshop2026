@@ -1,0 +1,24 @@
+{
+    "schema": 1,
+    "from": "1.0.4",
+    "to": "1.0.5",
+    "php_min": "8.0.0",
+    "db_version": "20261028100000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "a3218df024d80909352c34852f5e1efe5d481cda189aa6dd656785857236fc00",
+            "after": "8542fa567d4dbadb3a2f1baee3beebd9e4f4cc5b3f3b44c40e66c599f2f4f5d8",
+            "size": 4875
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/UpdateService.php",
+            "before": "d0087d7313f98c2ce37296cb9d8e9412c2c4a42f87fb70721c7056d99c9dd203",
+            "after": "8c115475fbf7b238474dd2e4a6248cf25e306719e68977582f63ddcbe37e3bc2",
+            "size": 61712
+        }
+    ]
+}
