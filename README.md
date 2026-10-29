@@ -19,7 +19,14 @@ v1.0.1/
   delta-1.0.0-to-1.0.1.zip    # 只含 1.0.0 → 1.0.1 变动的文件
   delta-1.0.0-to-1.0.1.json   # 逐文件 add/modify/delete + before/after sha256
   vendor-1.0.1.zip            # 仅 composer.json / composer.lock 变更时生成
+update/                       # 兼容镜像（给 v1.0.0 旧客户端，内容与根目录相同）
+  update.json
+  update.json.sig
+  v1.0.1/...
 ```
+
+> `update/` 子目录只是桥：v1.0.0 的客户端请求的是 `/raw/main/update/update.json`。
+> 站点全部升级到 1.0.1 之后，发布时加 `--no-legacy-mirror` 即可停止生成。
 
 ## 发布
 
