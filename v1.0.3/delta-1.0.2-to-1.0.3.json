@@ -1,0 +1,31 @@
+{
+    "schema": 1,
+    "from": "1.0.2",
+    "to": "1.0.3",
+    "php_min": "8.0.0",
+    "db_version": "20261028100000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "e080b889a3d7c74879a17b81d81e1442784d65da78a157236d21b12f8fd4d629",
+            "after": "8cfc8d61d40d6c87c5451f3ac87110cb8e23e8036c711ff68f58979657989361",
+            "size": 3605
+        },
+        {
+            "op": "modify",
+            "path": "app/common/command/ReleaseVerify.php",
+            "before": "1bd7301a2bbf77c0ed0b4534d3bf5e5db2ad1618357a44717696c5dedf4f22ad",
+            "after": "b13850533bae690cc788c0ab657eea308c5f217e35203727c25b1118aec39021",
+            "size": 25938
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/update/HttpClient.php",
+            "before": "9692b07801d10cad286f22438c6055e9b76a8fd1c650e588b5a0468e5617da43",
+            "after": "f1c488041ed252b6dad2b401145abc2d52bcb12b627497ff3cca694efb1d8023",
+            "size": 16916
+        }
+    ]
+}
