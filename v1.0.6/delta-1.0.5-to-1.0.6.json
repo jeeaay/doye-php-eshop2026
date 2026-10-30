@@ -1,0 +1,241 @@
+{
+    "schema": 1,
+    "from": "1.0.5",
+    "to": "1.0.6",
+    "php_min": "8.0.0",
+    "db_version": "20261030144500",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "8542fa567d4dbadb3a2f1baee3beebd9e4f4cc5b3f3b44c40e66c599f2f4f5d8",
+            "after": "b57045dce005fd687b64fc8e8d6a2dc4d58c53a10ffc5c9e2ddb3b2d79690eea",
+            "size": 8064
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/AdminBaseController.php",
+            "before": "b5d513573a1817a5ef0c9d598e69f8ea7b343e0cb4055cf1fcddbcd936de3429",
+            "after": "c20eb6beff63d4077c26ad4b2265af563d24bd20739c979fe3038ac6a249a6c0",
+            "size": 1691
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Auth.php",
+            "before": "79c7059832d4272dd56eede0e77be23fed5620907041ea1594fadc196c0903d0",
+            "after": "092eb7712f8d6761567a9d01d0bec73abf5fc5f575f608505e9f0d9efc6429a3",
+            "size": 4621
+        },
+        {
+            "op": "add",
+            "path": "app/admin/controller/Security.php",
+            "before": null,
+            "after": "fa21a2ff18cf91f8bfbcd846a7c6f18ab4502e1a2912da19837ec4f903b6e32f",
+            "size": 10084
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/route/admin.php",
+            "before": "8e3fedfe33480169ac44b0b314514c4e259da4f6c20b6279ac424a90797cbfae",
+            "after": "da33a9bf850757a5d87cc237d7f72fdb49a353ad901be9711df7e3de6310f6db",
+            "size": 8462
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/layout/base.html",
+            "before": "dead79b26821f507c3288d44c5ae75e49cd3a0200d4a7280bc0e7cb09d969f74",
+            "after": "c9f3506d8679088c85f0c5645a1110139af4797ba83525236a058d1af9d1c18d",
+            "size": 7402
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/security/index.html",
+            "before": null,
+            "after": "a13324787c7fb4760e16b74af1dd2d2aaea2eee297842bce02e538883bbb49e4",
+            "size": 45317
+        },
+        {
+            "op": "add",
+            "path": "app/adminapi/controller/Security.php",
+            "before": null,
+            "after": "c239bcbd5792653bacf154602d572288f08495b41836df23de6052cf8dc99f4d",
+            "size": 9160
+        },
+        {
+            "op": "modify",
+            "path": "app/adminapi/route/adminapi.php",
+            "before": "1f9f00f62c6c0011982d0fbbc60f8ae6597a9cf7dfebd22206162c757c7ebcd1",
+            "after": "e7e6fd3e317ec9acd2d069ba216ca28096c165cfc2a89fff33c7d22418fb26cd",
+            "size": 5351
+        },
+        {
+            "op": "modify",
+            "path": "app/api/controller/Site.php",
+            "before": "faabb2e951018d38b7f95c74c796430bb2eab96ef70edccb9c46d633f9c2eeb0",
+            "after": "071f0539786c6d309a8cca19c6928deca9e4873929f886cbd355256ba527f86f",
+            "size": 4761
+        },
+        {
+            "op": "modify",
+            "path": "app/common.php",
+            "before": "1f8435ba4bea6b037e605124ec0dc3abda0d14b8c05cd354a952d20da137e5d2",
+            "after": "67115c22a368fcbd04ef1afc9b649d08f6983667c0c34b2e46974d9344b1ab3d",
+            "size": 2817
+        },
+        {
+            "op": "add",
+            "path": "app/common/command/SecurityUnblock.php",
+            "before": null,
+            "after": "522bfa9bb87be9076e7b92b71b0d9e610af1247d1bbbac429897fb5dd0f14395",
+            "size": 3677
+        },
+        {
+            "op": "modify",
+            "path": "app/common/middleware/AdminApiAuth.php",
+            "before": "7e8e673042f24754c82bcec6afbc43387735b452c8e837feaf511db42055bb7c",
+            "after": "55ca17ec8958dcbba6a9e6379b43c4365b027de3a8d1c79fa7268d430f2ef0f6",
+            "size": 2678
+        },
+        {
+            "op": "modify",
+            "path": "app/common/middleware/AdminAudit.php",
+            "before": "5c20899b4360c85f2a24e0b9e02a1767b9d4ba2383601ad16dd887e6472633a7",
+            "after": "bd3deede80b45e55ad16dd96bba65fa443ba208704e902a5e69cbca717f3ab49",
+            "size": 6537
+        },
+        {
+            "op": "modify",
+            "path": "app/common/middleware/RateLimit.php",
+            "before": "c35a5dae7b8bf7a9ebb6fd05cae0994b9a4538ea9bca9c28990f14bbcd87b188",
+            "after": "31e01dff1ec4fb67c115fcff925da1dc40e8883cddd476633b7feae9069d975a",
+            "size": 606
+        },
+        {
+            "op": "modify",
+            "path": "app/common/middleware/RequestLog.php",
+            "before": "d622975c8c4cc61990cb38a84471aac4fd4888df4d4b47cd054be5db476d5ee0",
+            "after": "2be5fb74f74e3511a5bba4b9966a5bc6bfed5cae03a3fb5c9ea48ca779fd773d",
+            "size": 586
+        },
+        {
+            "op": "add",
+            "path": "app/common/middleware/SecurityGuard.php",
+            "before": null,
+            "after": "fdf5c3074781d562b62ebb575f602c565ca274f40e2636f17f68e3839bc3f393",
+            "size": 1129
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/SecurityEvent.php",
+            "before": null,
+            "after": "09286ef510af5f8165df4db6eabfdf4b7b462cf3ae960163ab8413a22127278e",
+            "size": 564
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/SecurityIpRule.php",
+            "before": null,
+            "after": "5f27020b9c2c7636194a89c3ef367b469be4d52c05ff00b009df053d4effe8c4",
+            "size": 502
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/SecurityPathRule.php",
+            "before": null,
+            "after": "a8ca1a84f2826cdb6cbfc05d634e91b93d50165f8bc55a29b76c977d9366ab47",
+            "size": 494
+        },
+        {
+            "op": "add",
+            "path": "app/common/service/SecurityService.php",
+            "before": null,
+            "after": "fb03c4a9a14f426c85c2275ca60f1ae5967b61836bffc28793bd76068b7b8b0a",
+            "size": 63025
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/SettingService.php",
+            "before": "36aaee610baab5d9b4e5349e38174992765f648f7b84ede9018e98327ed8991f",
+            "after": "08969ed45ef4b1a0c1476418d01d9a5acd249bffb858b7ba13dab9e7c3dc86a4",
+            "size": 9312
+        },
+        {
+            "op": "add",
+            "path": "app/common/support/AdminMenu.php",
+            "before": null,
+            "after": "cfafa7b0b99515b3acad8aa8d357182fe178ef9a540cb973a705200d4502ae1e",
+            "size": 5005
+        },
+        {
+            "op": "modify",
+            "path": "app/middleware.php",
+            "before": "4684641b11c840f660b6d8b7be7c5bc29a73a1c451a27d33b2e1fe68e886b181",
+            "after": "e929fd8abfc9bde29fb41bcb10debcb83660623a2525814ab35f4566afced06d",
+            "size": 340
+        },
+        {
+            "op": "add",
+            "path": "config/admin_menu.php",
+            "before": null,
+            "after": "7436b4e6e85379aae2b0e9aa68c5bac8dc6900ba6b63e4a73e2a1a54ef1ae6dc",
+            "size": 4002
+        },
+        {
+            "op": "modify",
+            "path": "config/audit.php",
+            "before": "1c4bcd2699eca21ae427ae3b07aea52adbf10eed4d931624192b4019b85d4188",
+            "after": "d5b22fd33349846ab901991c3954e9731bd354214408d83c9619d876372811c1",
+            "size": 2792
+        },
+        {
+            "op": "modify",
+            "path": "config/console.php",
+            "before": "5d4dc4d4561857c4ec86f0de1a7b3f6b57c9cc35eb356b0a91aaed72b5e3773f",
+            "after": "42d628020b0f6750f7116eb1e8e8caa26887de425c7b20ef5b4d78dbe320251d",
+            "size": 1375
+        },
+        {
+            "op": "add",
+            "path": "config/security.php",
+            "before": null,
+            "after": "c7eda142d37df295c676c27fa4e4bc3e677cdb7ca835c209550ff92b1ff39f84",
+            "size": 5730
+        },
+        {
+            "op": "modify",
+            "path": "config/setting.php",
+            "before": "d98ecf042a8c880c9e2b978149a057b4b2fd65b2c178e6dbd7d0af344e920880",
+            "after": "c5aa3c351f88265c5abfd794a7c003268e4e4acd746efdd3f08be55b647be582",
+            "size": 11308
+        },
+        {
+            "op": "modify",
+            "path": "config/update.php",
+            "before": "0bd529c8dfca26ac896c05ce8f05358efafd7b7cdb152ce400836dad4da60c37",
+            "after": "7ec0e18873832868daa6844ad618215b350323e449e5a7e33aad2cbfe1cf8ca3",
+            "size": 5068
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000032_create_security_tables.php",
+            "before": null,
+            "after": "40008229b6fc3220432b2758f46dc937ba5a6c3daf958e77d8e5610dab4bd294",
+            "size": 5323
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "ace541aea68e5e1ce766085b311308117918c1fcac282e11d6acf9ca4f2d996e",
+            "after": "5fbbe88371fdf803ac319877da8cc9fd234f690c05b84c72162ddf047166dbcf",
+            "size": 23340
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "f5a5d0bb2536ac8bc94fcb0fe6ad061779c4039841f739f58d54ce8467cfeaf5",
+            "after": "c18d9c1c4c0f25acd40f6fd1e07dea268f49538f766c437d47b0f4a7d0417ea5",
+            "size": 34632
+        }
+    ]
+}
