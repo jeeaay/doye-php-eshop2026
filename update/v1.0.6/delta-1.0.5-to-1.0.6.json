@@ -10,8 +10,8 @@
             "op": "modify",
             "path": "CHANGELOG.md",
             "before": "8542fa567d4dbadb3a2f1baee3beebd9e4f4cc5b3f3b44c40e66c599f2f4f5d8",
-            "after": "b57045dce005fd687b64fc8e8d6a2dc4d58c53a10ffc5c9e2ddb3b2d79690eea",
-            "size": 8064
+            "after": "2f2093386f22c0bebe12adc8fd0bb9d12cea5126a89ac3f2c1f1132bea0b9d00",
+            "size": 8166
         },
         {
             "op": "modify",
@@ -229,13 +229,6 @@
             "before": "ace541aea68e5e1ce766085b311308117918c1fcac282e11d6acf9ca4f2d996e",
             "after": "5fbbe88371fdf803ac319877da8cc9fd234f690c05b84c72162ddf047166dbcf",
             "size": 23340
-        },
-        {
-            "op": "modify",
-            "path": "public/admin-api/openapi.yaml",
-            "before": "f5a5d0bb2536ac8bc94fcb0fe6ad061779c4039841f739f58d54ce8467cfeaf5",
-            "after": "c18d9c1c4c0f25acd40f6fd1e07dea268f49538f766c437d47b0f4a7d0417ea5",
-            "size": 34632
         }
     ]
 }
