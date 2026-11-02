@@ -1,0 +1,101 @@
+{
+    "schema": 1,
+    "from": "1.1.0",
+    "to": "1.1.1",
+    "php_min": "8.0.0",
+    "db_version": "20261102143000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/common/command/TranslateWork.php",
+            "before": "f221588537fbdf12ffca490044866dc3cd060a1ccf99f77ce4fb98fb6cfbc1be",
+            "after": "624c81b10bec923bc50eef119a49bf7966968e72974dec6d3815bbe316cbc30b",
+            "size": 5226
+        },
+        {
+            "op": "add",
+            "path": "app/common/command/TranslationAiTest.php",
+            "before": null,
+            "after": "a5997372c953a06f12ead54c75b55fff674ec9ce403fffd30c8a2bad52f65ec9",
+            "size": 3892
+        },
+        {
+            "op": "add",
+            "path": "app/common/command/TranslationFakeApi.php",
+            "before": null,
+            "after": "28b9a39742c1efb2ad6b784c081ae759309122f256db256fd269bfee46db689c",
+            "size": 2269
+        },
+        {
+            "op": "add",
+            "path": "app/common/command/TranslationQueueTest.php",
+            "before": null,
+            "after": "75e30eedb3c00bdcbf71191e3c1cc1926846a96e06720cd1d7766f3fce3eb76f",
+            "size": 2555
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/DistributedLock.php",
+            "before": "d437b3ec8c9aa6b7b06c4b96879af0058f309ea6b6ccb613dc08f2d84a058929",
+            "after": "3dbee26a8a18637b8e095992449ec02ab43f7bda1205ffdc810d76f7ab41b77f",
+            "size": 1121
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/translation/OpenAiCompatibleProvider.php",
+            "before": "e9e0a2f42838d6c4d118db2133e64a421347e49e2e041c36463d377864489c06",
+            "after": "861d9d26f1571c8fde0ad08dbd8162ddf00d449543ac0c0fd43fcdb2b5581531",
+            "size": 9617
+        },
+        {
+            "op": "add",
+            "path": "app/common/lib/translation/TranslationQueue.php",
+            "before": null,
+            "after": "9f17b50597e4af2058ddd209c42357e7732de77e47faf42a29ab8d670e74b4bc",
+            "size": 5605
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TranslationJobService.php",
+            "before": "1009b9b15c15f80ba42ec2d22a9b36488020170046bf3c8108d6be9eaee17d47",
+            "after": "be0b153652ddc0f9963249e7edc87db317bc4f9f66989a4b1bd547fb8e3e046f",
+            "size": 18529
+        },
+        {
+            "op": "modify",
+            "path": "config/console.php",
+            "before": "8140965ae9a003f7c79d0dd5ab36713cdc722e54b520a8b2b6430bb1c6229429",
+            "after": "557697ac3f451fa40667c8cbf15643682322d465faebf78e83f93fc949885745",
+            "size": 1909
+        },
+        {
+            "op": "modify",
+            "path": "config/setting.php",
+            "before": "29119d27cedad7a497f6ba22df34fdb108f6c314654618091c8815080a712c8f",
+            "after": "4765d094d582c9b23070d73b9337bba718f90612e415245ba1377190b9cfdfb9",
+            "size": 16062
+        },
+        {
+            "op": "modify",
+            "path": "config/site.php",
+            "before": "94b29047e68c57e01c931ee1e94d4c38bc6b8fcb0ec1000127a7f2e19be5b6a8",
+            "after": "4b829b5503965248a341f632e8a6318e57cbc92ae88a491603f078f7c402e032",
+            "size": 4059
+        },
+        {
+            "op": "modify",
+            "path": "docs/i18n-multicurrency-checklist.md",
+            "before": "a0c5730fe35836621d90e1b7d470b4e72344f839de4e89835793b98637b3ffe2",
+            "after": "6282c12aa53b084438d13f60d825586709635376c6796f743f1a9a0b75febae2",
+            "size": 14617
+        },
+        {
+            "op": "modify",
+            "path": "docs/i18n-multicurrency.md",
+            "before": "6db3557877b9cf5eddcabf4605c6e7f0f9da74c5ce4ca2f078d70a436056e2c9",
+            "after": "92f54918b1a6dac1cb15f9952804a14388789c0b9c684826b8fb719bdab77c06",
+            "size": 16560
+        }
+    ]
+}
