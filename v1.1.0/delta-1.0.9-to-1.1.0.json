@@ -1,0 +1,108 @@
+{
+    "schema": 1,
+    "from": "1.0.9",
+    "to": "1.1.0",
+    "php_min": "8.0.0",
+    "db_version": "20261102143000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "453e3a7b9765c7bb7e1c9e05f437e7491b5778103f23c1fcd2017cad6087e0c7",
+            "after": "32e3dca514c9d3639c9629eb502719d0444398a128821dd9dbb3355cd7510f1b",
+            "size": 16437
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Products.php",
+            "before": "e63e1fd7080386ba5de4d377ca93bf433cc82930fe5c0c72184dfaa33c2fbd7a",
+            "after": "bd87da31012eee0510b3aec1b0b06f060d6fa414773bea8ca5046fb8f55ab270",
+            "size": 11226
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/products/form.html",
+            "before": "2f8c066fc1f782f24380da13a897cbe852e933e7db9e9a8250a6905174396f79",
+            "after": "50961b1e75de79679387bc29c5401268bfcad9624fc422c20f8b1ff1e1b7451c",
+            "size": 23019
+        },
+        {
+            "op": "modify",
+            "path": "app/common/model/Product.php",
+            "before": "c42d97b3b1c3286be83c16f292beadc11f9e4851fd6b3d11b2337b5e9907eba1",
+            "after": "6961d6aa8d389e0edc63f3ef81a4a647969901e14d3d740a0d825a4b4d930447",
+            "size": 1086
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/AdminCrudService.php",
+            "before": "f2e4ba0e4e181056eba49b19f89679ae0d7a038d4426d3230d927fe983953127",
+            "after": "ebce3c075c04307697d1a95874756f67856d832be67870696234ac8155529606",
+            "size": 54548
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/StorefrontService.php",
+            "before": "bbcbdce557114f51456f729359074776176dc766a2a6057329473eb9986d275d",
+            "after": "90431badd0c3aa0cb9823c13b840a8641a1c0d15e7c61e8fdfab449c0a2c0bc9",
+            "size": 15434
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Product.php",
+            "before": "1b86c71b265a8dbb0af4c4cb846f7050dca16497d55d0d96b17067befe03e6cc",
+            "after": "0e42273cccffd32834b51b065cc71ba8f40cb464d26cccb13d003d73db05bea7",
+            "size": 3603
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/SiteBase.php",
+            "before": "e536009d72e40392d47f5dabefad3b57ec7aa3267f2db7a4c85d92a8a9a7efe9",
+            "after": "d6e070be8a64155daf1b513d3d507d3fdb45254238585c2bdf5b0d46b4eccb6f",
+            "size": 7079
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Sitemap.php",
+            "before": "00ef934180ce84e0c74c288b3c0db5c21d6f5517c129cb5dba16278750e901b0",
+            "after": "ae9669b4e19666ea19d76927eac0c7843c129fd0df2bab1a0d02e342f52fe724",
+            "size": 2978
+        },
+        {
+            "op": "modify",
+            "path": "app/view/site/product.html",
+            "before": "5a7a5875bfcd72354f1d6a0582b5548d1046bdc6199102d6511df1fc1a46f541",
+            "after": "baecc5b2d2cfeeb5e948fc49ced7d18d4f38359e3897c8ecabb5f4540d034574",
+            "size": 15921
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000038_add_product_seo_fields.php",
+            "before": null,
+            "after": "ea728cad3ff395b59a407ab4d0304aa33d4faf3d829ed55db5c24134d408bdd2",
+            "size": 1761
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "16732774fe1fd7371c106426f53448652bd1fe8649e2052fbc8e1a84380eb139",
+            "after": "779f3633d28b07320d98ece84d3ebb742573a4e9b81bc179d069275c0ac7c45f",
+            "size": 29142
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "1af80899b97450def55957cb26f99bb778ce3940b180b10cf01d44e09111a7b7",
+            "after": "19c3f156a7813bef4ea6d38d05d6775952ddaa744d47501373846f5f7b2171c1",
+            "size": 44533
+        },
+        {
+            "op": "modify",
+            "path": "public/static/js/product-editor.js",
+            "before": "29dc6fa024751418da8349100a40c341d8d12530c06c600b3b1935c544d62f64",
+            "after": "c5f1bf3c746fb4443c59d005b9cf5349e02ff307d332749d8c698864a59fa98a",
+            "size": 26109
+        }
+    ]
+}
