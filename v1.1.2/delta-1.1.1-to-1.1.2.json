@@ -1,0 +1,38 @@
+{
+    "schema": 1,
+    "from": "1.1.1",
+    "to": "1.1.2",
+    "php_min": "8.0.0",
+    "db_version": "20261102143000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/admin/view/products/form.html",
+            "before": "50961b1e75de79679387bc29c5401268bfcad9624fc422c20f8b1ff1e1b7451c",
+            "after": "5b4c68dcf9bd3bda15a851a18916fd2533559a91583daa6bd7ab8540c58cd461",
+            "size": 23100
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/products/index.html",
+            "before": "0961d79dba0beb0b80fcebf930018d5a52b2a0c91eaed1973c9c6dd1c2bc3076",
+            "after": "54a181dc5b8f2c10d02a8fae56f816cf97ccc311b77b2dc03b26f7c872a2c5bd",
+            "size": 5129
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/setting/index.html",
+            "before": "0464173efae2dcb5b98a6dd942d7e1f8fbc158a9e9d468d7b5d5a7fb3f3b0e57",
+            "after": "6fc69212f9b1d2ff0d83b339d03a576218dfd9043526d0588b334bc6c3a84276",
+            "size": 47427
+        },
+        {
+            "op": "modify",
+            "path": "public/static/js/admin-crud.js",
+            "before": "8a67d620d9202691c9a7ff2bafe1ab932370fa2d9518461344958a4440280c8f",
+            "after": "07f2dcd5be3f055e12dadb64a8dd4b1da2ca5f905d00da5081cf469b85d11fb7",
+            "size": 4206
+        }
+    ]
+}
