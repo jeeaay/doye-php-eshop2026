@@ -1,0 +1,59 @@
+{
+    "schema": 1,
+    "from": "1.0.7",
+    "to": "1.0.8",
+    "php_min": "8.0.0",
+    "db_version": "20261102103000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "9fe9075f6423fd72e32489b5226b1b3fe016e8a238abd4f847df1addd5259e1d",
+            "after": "23737cf8afa8be93364d4f58e42f1d361899b34364fa4935544721ce9ea47952",
+            "size": 13702
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/edition/index.html",
+            "before": "a8d0369239d3c539eebefa67f5830064dfea50b820045e3dba5c29853855eaca",
+            "after": "cad5878c49cfa32394bf6cd17b0308cfbb07820ad99130ab945b7b2375ede5d3",
+            "size": 12951
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/EditionService.php",
+            "before": "f65771b5e07eb94d6790bfaca22e450eec55f7be933161e673cc117c76a8792b",
+            "after": "593ef5fbc6e0a548cd7fe44f37dc3a4480f5e67f7c7e8d9e06f836dc16ec7231",
+            "size": 7790
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "9c38670e4279300a9172c4ebe0c2cd9ec5f6ebac1990d3589fe6e40029176787",
+            "after": "16732774fe1fd7371c106426f53448652bd1fe8649e2052fbc8e1a84380eb139",
+            "size": 28819
+        },
+        {
+            "op": "modify",
+            "path": "docs/i18n-multicurrency-checklist.md",
+            "before": "c44551b2dfc424a50ec832714c910c75fbe001d9a2a632348a2de5b92cdabaea",
+            "after": "a0c5730fe35836621d90e1b7d470b4e72344f839de4e89835793b98637b3ffe2",
+            "size": 14301
+        },
+        {
+            "op": "modify",
+            "path": "docs/site-edition-mode.md",
+            "before": "c06eea59c42ffe7714e1074006ea83b8b225b1142138871d07c1979baaaf618c",
+            "after": "1bdbb75c6321f2ab9de5e738cb7a1e4d3fd4ead7ae499349e43260ba9d173d3a",
+            "size": 11033
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "54433e2a9663a6558752333a30ff6382d8616c0bbd91c07f26a7268fe69f79f0",
+            "after": "1af80899b97450def55957cb26f99bb778ce3940b180b10cf01d44e09111a7b7",
+            "size": 43825
+        }
+    ]
+}
