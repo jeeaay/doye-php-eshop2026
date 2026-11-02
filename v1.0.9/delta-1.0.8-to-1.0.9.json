@@ -1,0 +1,38 @@
+{
+    "schema": 1,
+    "from": "1.0.8",
+    "to": "1.0.9",
+    "php_min": "8.0.0",
+    "db_version": "20261102103000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "23737cf8afa8be93364d4f58e42f1d361899b34364fa4935544721ce9ea47952",
+            "after": "453e3a7b9765c7bb7e1c9e05f437e7491b5778103f23c1fcd2017cad6087e0c7",
+            "size": 14922
+        },
+        {
+            "op": "modify",
+            "path": "app/AppService.php",
+            "before": "d168350c5c069a6d0e67a01f333b93c51291a73fcd155ac37b39b9301253dd55",
+            "after": "9aff958053967b2a652f4492dd8110c015cab0aa86b10fc7cf5510ba935001ab",
+            "size": 972
+        },
+        {
+            "op": "modify",
+            "path": "docs/online-update.md",
+            "before": "b339af6f1c9e8b9a2468a27ec5f0b4f534bf8e93ec5f9f2087cd9a82c6c7f864",
+            "after": "42ac2141c95a7cf73079de0ac21348d75c8234559acb8df5a4dde140c3988779",
+            "size": 9076
+        },
+        {
+            "op": "modify",
+            "path": "docs/site-edition-mode.md",
+            "before": "1bdbb75c6321f2ab9de5e738cb7a1e4d3fd4ead7ae499349e43260ba9d173d3a",
+            "after": "ace144795575669b80feee2dff0d8c28b6a0d329d5e50913342918f5ea036001",
+            "size": 11489
+        }
+    ]
+}
