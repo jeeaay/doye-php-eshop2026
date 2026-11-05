@@ -1,8 +1,8 @@
 {
     "schema": 1,
-    "latest": "1.1.6",
+    "latest": "1.1.7",
     "php_min": "8.0.0",
-    "signed_at": "2026-11-05T16:03:08+08:00",
+    "signed_at": "2026-11-05T16:16:00+08:00",
     "steps": [
         {
             "from": "1.0.0",
@@ -278,19 +278,37 @@
             "from": "1.1.5",
             "to": "1.1.6",
             "asset": "delta-1.1.5-to-1.1.6.zip",
-            "asset_size": 277157,
-            "asset_sha256": "967b8b17e3c7d7d42b18adc30af9c51519fad5bebbf9e1b5c23cbb605f51db9d",
+            "asset_size": 11850,
+            "asset_sha256": "ea923b88c09227ef82710bcdd1c327e869e50e339b610d170dc95f053cd96d33",
             "ops_asset": "delta-1.1.5-to-1.1.6.json",
-            "ops_sha256": "142b5b9225ac382b001fbacdf75eaf2357d64dfdbc93c74162936cbad2549183",
-            "ops_count": 115,
-            "delta_bytes": 28990,
+            "ops_sha256": "b1fa1679045f59867359a3f4736b87172e6b52b9eb76682dc37c97e1ba97a67e",
+            "ops_count": 2,
+            "delta_bytes": 749,
+            "need_vendor": false,
+            "vendor_asset": null,
+            "vendor_sha256": null,
+            "vendor_size": 0,
+            "db_version": "20261103150000",
+            "db_breaking": false,
+            "notes_url": "https://gitee.com/jeay/doye-php-eshop2026/blob/main/CHANGELOG.md#116"
+        },
+        {
+            "from": "1.1.6",
+            "to": "1.1.7",
+            "asset": "delta-1.1.6-to-1.1.7.zip",
+            "asset_size": 274619,
+            "asset_sha256": "e592f867fed8874da041b8b47e5e890b4b0ff125446ca5495159c62d2aba1128",
+            "ops_asset": "delta-1.1.6-to-1.1.7.json",
+            "ops_sha256": "ae533f2b5a2e68dbb5903226eabe44231979f6eb9c643183e01231c87347604f",
+            "ops_count": 114,
+            "delta_bytes": 28696,
             "need_vendor": false,
             "vendor_asset": null,
             "vendor_sha256": null,
             "vendor_size": 0,
             "db_version": "20261105112800",
             "db_breaking": false,
-            "notes_url": "https://gitee.com/jeay/doye-php-eshop2026/blob/main/CHANGELOG.md#116"
+            "notes_url": "https://gitee.com/jeay/doye-php-eshop2026/blob/main/CHANGELOG.md#117"
         }
     ]
 }

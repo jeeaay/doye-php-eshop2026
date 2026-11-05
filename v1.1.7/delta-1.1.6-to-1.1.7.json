@@ -1,0 +1,808 @@
+{
+    "schema": 1,
+    "from": "1.1.6",
+    "to": "1.1.7",
+    "php_min": "8.0.0",
+    "db_version": "20261105112800",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "e99a4ee1f2d51279932f5203074f51e411ef0e3527c97e9aea6f77756196261e",
+            "after": "ba08fb026d40c8521df9e40c600a146d1845e3611ed710255b988275b8da7574",
+            "size": 21610
+        },
+        {
+            "op": "add",
+            "path": "app/admin/controller/Template.php",
+            "before": null,
+            "after": "0864cb4742d949c7fe7a6ce274f19c89cab9941fdc7a31e9be9f58219f5cbdd5",
+            "size": 5433
+        },
+        {
+            "op": "add",
+            "path": "app/admin/controller/TemplateTranslate.php",
+            "before": null,
+            "after": "d1c30cbd5f2e68862273586c25332cc37532cf257d5fdca3ea3daecec94d914a",
+            "size": 3973
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/route/admin.php",
+            "before": "16ca6e7ccec14b83211246263fc0f46bddcef0ffb1a5d893a8b6b79129ad4008",
+            "after": "3300c4c0ab4b4341dd5b1a699c48d888c8ae341caa8d1e8662e155cf2eea072e",
+            "size": 10078
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/template/index.html",
+            "before": null,
+            "after": "9f784bf0ff10f7257ed8d9fd1ec984fa8b01cd0c3099d1cc7132fbfc686fe78a",
+            "size": 5031
+        },
+        {
+            "op": "add",
+            "path": "app/adminapi/controller/Template.php",
+            "before": null,
+            "after": "3f56da6bf302ffc377792fae35d919ba802bfa6d5474031484e38305c198de57",
+            "size": 4003
+        },
+        {
+            "op": "add",
+            "path": "app/adminapi/controller/TemplateTranslation.php",
+            "before": null,
+            "after": "ea037239205349c8a0668b0422775376cfa5ab7a12c8f44351f9bbdd9f566962",
+            "size": 1841
+        },
+        {
+            "op": "modify",
+            "path": "app/adminapi/route/adminapi.php",
+            "before": "b0c028963b944a0f02b3d62b53564b0dbcfb9910be1191306881e29ae5cc4c58",
+            "after": "4fc32dc3c414f3e5590b035c798b88c8779914d0b9370c4fcb1a9d22d5da4436",
+            "size": 7269
+        },
+        {
+            "op": "modify",
+            "path": "app/common.php",
+            "before": "4bede846c8c752669fede981764d533ced93542cb4624f490ad03cfef82157af",
+            "after": "70ff66a3714cef3a8e1b686c75da5bc7ac4e115633a1bde268e7695b792cb636",
+            "size": 8396
+        },
+        {
+            "op": "add",
+            "path": "app/common/lib/translation/HtmlTextExtractor.php",
+            "before": null,
+            "after": "bd5b28383acb38e78b632b1a822e55cf37423c67a8c0b5c1e456a0341749a152",
+            "size": 6885
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/TemplateFile.php",
+            "before": null,
+            "after": "f3d19ac682603f6f7df552425e654c9211236bec030e0521eeaaa72624d13385",
+            "size": 471
+        },
+        {
+            "op": "add",
+            "path": "app/common/service/TemplateManager.php",
+            "before": null,
+            "after": "b16b2b697adc23da1555dc02894291cfc3ccd8e258ec71964a05bc8a2fc49cbd",
+            "size": 13074
+        },
+        {
+            "op": "add",
+            "path": "app/common/service/TemplateTranslationService.php",
+            "before": null,
+            "after": "79523e29a7c70389395e9f1d630b4b1b78be80f493ed583f4b1a517a09e94cab",
+            "size": 11307
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TranslationJobService.php",
+            "before": "4d02253cc73387f9e3833e68d3ee025e7f358bb317904d3836afe1f57c5c8b3a",
+            "after": "ee3f7fde9f629aa7c274d0ec0e282ef0dbed4402ae35faab8e5c729a888fe3db",
+            "size": 20474
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/SiteBase.php",
+            "before": "c6f43d1dcf88b5e2b82dc8501c1e55e6c2b4e894da952ed0085a0ef06ad8e705",
+            "after": "213654c10897ba48eb0dd681010f7ecf3bc8be8df0a0c918243343bd57f7b749",
+            "size": 9362
+        },
+        {
+            "op": "modify",
+            "path": "config/admin_menu.php",
+            "before": "04e6a535cb6275975ef723962b195b180b107d4f2ad6af5e838adb4fcddd0d66",
+            "after": "0a27c6fef0185ad0261aae158675e7901f483a002e1a4c760e9ee97323d93542",
+            "size": 4487
+        },
+        {
+            "op": "modify",
+            "path": "config/setting.php",
+            "before": "4765d094d582c9b23070d73b9337bba718f90612e415245ba1377190b9cfdfb9",
+            "after": "1150bec9323bf0016882f98ccbce91e4d19b27bafda0ff5c9883a03357abb177",
+            "size": 16494
+        },
+        {
+            "op": "modify",
+            "path": "config/site.php",
+            "before": "4b829b5503965248a341f632e8a6318e57cbc92ae88a491603f078f7c402e032",
+            "after": "5010f3f1d80ae15953ac56fe1c90037cb0ae2dd18b94f7d89fef06a8b8b94d35",
+            "size": 4186
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000040_create_template_file.php",
+            "before": null,
+            "after": "5ebc94d488400332d3dd872b665aa9ec0713a06bb141aa974486a6398c26f3c0",
+            "size": 2160
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/_base.sass",
+            "before": null,
+            "after": "a6b4c4a634739157a060d2c006390ad7a1109353c9dd2cf7ad75243794b1d207",
+            "size": 11232
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/_mixin.sass",
+            "before": null,
+            "after": "4535638e12b3f005b660c57c43db9b60ca922a8e596b8acbcbe898d52956f95a",
+            "size": 2549
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/app.css",
+            "before": null,
+            "after": "f2dea66007d729e0f9e4cdb669b3a8e0b880becb3bef68de650237a35b93ad12",
+            "size": 55778
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/app.css.map",
+            "before": null,
+            "after": "e93290957c83c38dff4848e321861f91891cd5985548fdc3a905a55054f5f930",
+            "size": 10047
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/app.sass",
+            "before": null,
+            "after": "3391b1cef2cb7b53146e61adbc5e0c6f637c83a8e877921a2e704b084b8b195f",
+            "size": 375
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/common.css",
+            "before": null,
+            "after": "661933916449d3b45fb723b3594353ffc199eae2dee530c21fad8350293c1d2d",
+            "size": 13785
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/common.sass",
+            "before": null,
+            "after": "496da13bf798ccd4adfac9557b6c595e63ddb6bce6b0061dc752aa74039dc42a",
+            "size": 5629
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_about.sass",
+            "before": null,
+            "after": "d8e90ee9dd0717dd9d360cca2c98ae6949b5eee4b7e24e6ac08b504b59fa1773",
+            "size": 1514
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_account-detail.sass",
+            "before": null,
+            "after": "387c97550adb61a7cf6e0b838dd616c334a929a90c22af1348981551bf9d2c95",
+            "size": 2744
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_account.sass",
+            "before": null,
+            "after": "934a7dfad5b052a5a43d7bbe9caf2a5c42e15d8e5b7d3e82cdc99d4dbc4aa8c6",
+            "size": 3407
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_cart.sass",
+            "before": null,
+            "after": "9ae873cbd592728e42fff57bc8769cb39c5afca36413f567325dbd81755a5d27",
+            "size": 5082
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_checkout.sass",
+            "before": null,
+            "after": "5ac90904e414a17d5962674f7c8bb1d88fd6e52437e15903ed81769a75c756a2",
+            "size": 8352
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_contact.sass",
+            "before": null,
+            "after": "fe4659158ddb7addbb3eb736c40a762e329ce458815aa2153a09e252cb1d4b0f",
+            "size": 1889
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_login.sass",
+            "before": null,
+            "after": "1b2591fc5627cf3bcf4f94ff4acfd5276e26c50466a6e5ce02e682d663e55f3c",
+            "size": 1884
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_order-success.sass",
+            "before": null,
+            "after": "f68d6812eb5d2842e3e8d0a0d5f22980f7cee68af2ae3ffe47ab48e172a18a7c",
+            "size": 1337
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_page.sass",
+            "before": null,
+            "after": "233a61522def8f0806f3de4147063d77a0b99a3c23b6b68b83bd96efdde38ff8",
+            "size": 1322
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/_service.sass",
+            "before": null,
+            "after": "a137b82dbc753f4d9cead343203258a9bfd2dfa866c9d115605bf9937ca3fd3e",
+            "size": 1614
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/homepage.css",
+            "before": null,
+            "after": "1ab51e20a3a9a8e866bc715f48113810b8f08d04f99f3109e27bc48599e89b71",
+            "size": 7430
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/homepage.sass",
+            "before": null,
+            "after": "94b53edef3685febcfff0d2330656ac60878d146f8941c07f79c39390c1a7bdb",
+            "size": 8546
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/product-detail.css",
+            "before": null,
+            "after": "25a5223327519a6e2e4e2d945fe065d34534b3b7fc5762dbba7875efa0da37ab",
+            "size": 6008
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/product-detail.sass",
+            "before": null,
+            "after": "a6da34f79e44b45bcf1bdadd8cfca5cb3ff220c3160bb1f7efa4aff29415f373",
+            "size": 7286
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/product-list.css",
+            "before": null,
+            "after": "ccdae63088cb21dd14a43588a2fe380ced98ad2f1014aadeb92f10c7f9d1f96c",
+            "size": 3586
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/pages/product-list.sass",
+            "before": null,
+            "after": "30d31754722e1e95af19dadc6cc92ddf288a72a780592dd9f7f2a5f99ab9e627",
+            "size": 4330
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/promo.css",
+            "before": null,
+            "after": "fe321ba61d78830de802690d28f4857c004bb6eeeba5c221d7f873ba4efdd61a",
+            "size": 12082
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/promo.sass",
+            "before": null,
+            "after": "809edefede340b597bf8fa4a62d684654d446b3a525a87064d32480f4627ca68",
+            "size": 4144
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/site-addons.css",
+            "before": null,
+            "after": "8d273d908300498110c0b4873edd48462e00dac313c3d16e53299738159b65e8",
+            "size": 2200
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/arrow-right.svg",
+            "before": null,
+            "after": "9c3de6946cfa1efdc473d7daa50549dce80c94026bbc2d6a8725b8e17dce78a2",
+            "size": 224
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/check-circle.svg",
+            "before": null,
+            "after": "b650220f9644be28075556a30ec6684f2584472a8328b32ed88bbc63f7f9d976",
+            "size": 278
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/chevron-down.svg",
+            "before": null,
+            "after": "2a80c1ce389cae719ba8db4e77239fd162f8f82aa7e77ee1861fac1c37832f3b",
+            "size": 214
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/chevron-left.svg",
+            "before": null,
+            "after": "0ddc6d08203de892b3408c5a971757a0d9b9b14087e14f86e275937563a85134",
+            "size": 217
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/chevron-right.svg",
+            "before": null,
+            "after": "74ba31e46364f88878cc9962a85542f7604ea0ce6593ba7f6a20f241b866d47a",
+            "size": 216
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/chevron-up.svg",
+            "before": null,
+            "after": "9dc8b01d7eed8ccd463d746fda506c7a9f980c8135ab1dcbf39aaa87d2225e22",
+            "size": 218
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/cupboard.svg",
+            "before": null,
+            "after": "f7e632bcc9235842f452586f835de593321baac3f273fb4941fa91e12620bcf5",
+            "size": 329
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/drawer.svg",
+            "before": null,
+            "after": "7ee3ea8a20aa67ad33e31fc0560e49b1a2afd60f05f006bbbaec4027109f6268",
+            "size": 290
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/facebook.svg",
+            "before": null,
+            "after": "001062f8bf16fe584ffaef3d6f949c0305ff34f36893947af7e7dc59d9ef02ed",
+            "size": 267
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/filter.svg",
+            "before": null,
+            "after": "9cff32e0cdabb4367b66213e2991ac50014347850ca371a97ae28e28383c2441",
+            "size": 224
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/fridge.svg",
+            "before": null,
+            "after": "68fbd4949db5ff3745cc8c424228f4553271194884a634d99b2f0c61e905186f",
+            "size": 284
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/grid.svg",
+            "before": null,
+            "after": "3a36d9b5e28193b0fa9c96fff3a6ed836e40ce0259b6e49ed3f66899ca43c85b",
+            "size": 312
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/guarantee.svg",
+            "before": null,
+            "after": "9b1a9c78e4d9ca323bfba24a18d70fb229e90462f464e484c8851dc286d0f2b7",
+            "size": 420
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/heart.svg",
+            "before": null,
+            "after": "c15883d786df8de1fb4cad65ac42bffe1dc2cb9b1b5399e0b07f39508719b957",
+            "size": 352
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/instagram.svg",
+            "before": null,
+            "after": "d17e811517a01b1391d3b2499e0d8ee864147272f6c9e48e9ee73725593fbd68",
+            "size": 348
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/list.svg",
+            "before": null,
+            "after": "2d1c16fb91345b254d6dde976113f606d28ac80c6066cbed8017d46915dc1e93",
+            "size": 251
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/login-bg.jpg",
+            "before": null,
+            "after": "71d12443189d99016eb0e5491cfbcd13312a19f02599e8d516288b3586e432b6",
+            "size": 78318
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/map-pin.svg",
+            "before": null,
+            "after": "ac20743e50041d20296c85a3fdfebcf408e268d1b363ab70aa296d007f5ad49a",
+            "size": 364
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/menu.svg",
+            "before": null,
+            "after": "8cc1629b5d5901326ba02ac490f83c0cd6b30d1458312b0c45b231fe74b08003",
+            "size": 225
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/minus.svg",
+            "before": null,
+            "after": "818b5d770efa6d97a73e053426621187d1a53fa1b965f3247bb18c701b207944",
+            "size": 210
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/money-back.svg",
+            "before": null,
+            "after": "1dcdb2d7cdd2b9034233a2d18a6bc153b0a5bc88940f625f39c8a02368d7cbdf",
+            "size": 387
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/pinterest.svg",
+            "before": null,
+            "after": "10c647748e549b96565b47953456ce6155510f30c6c8dfbc3825d31c27afed2d",
+            "size": 398
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/plus.svg",
+            "before": null,
+            "after": "c883f46b8399d72017386ed6e641f576b6d5aa5576d9124f5a5f2127b61f8042",
+            "size": 218
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/returns.svg",
+            "before": null,
+            "after": "5b81b46acdf1bebcf8e193c64d091c60bc5915a9cb43fecf11bb3efd22d53b4c",
+            "size": 410
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/rewards.svg",
+            "before": null,
+            "after": "e97612f92f7a39cb5a11b80abb65478c217b0decb387680c223d55d27e4011e8",
+            "size": 398
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/search.svg",
+            "before": null,
+            "after": "24f2716167da9ac841c73f875b725d675ef842440e0e59d6da5d618f4bab7dd0",
+            "size": 281
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/share.svg",
+            "before": null,
+            "after": "0405346c0b156f8e3edd4dc7165dbb37f3e10f3ee9c36bd61d92011705ede2c6",
+            "size": 391
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/shoe-racks.svg",
+            "before": null,
+            "after": "2e6e37c48cf01ab5a04da3fe8367513f7a463422191e45b89a941e1f2909ed40",
+            "size": 447
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/shopping-cart.svg",
+            "before": null,
+            "after": "de99f0161b159a48d58a607a74bb4e32f8fbcc97bea81449291a5fa4f8b62bbc",
+            "size": 386
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/star-half.svg",
+            "before": null,
+            "after": "eeab008d6676ffb8a5c8068705b96ab1f75fa198a0a08a846c026a68d30343d3",
+            "size": 408
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/star.svg",
+            "before": null,
+            "after": "70787ec03e0e3df9fab2e6523b6009a712a759d9616c8d011d0b0f6692ee6297",
+            "size": 556
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/thumbs-down.svg",
+            "before": null,
+            "after": "23d5a05912860e8f837208f2bdd81e7f8f8edfd0ba47f0658cd124b705e705c6",
+            "size": 360
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/thumbs-up.svg",
+            "before": null,
+            "after": "ea9693f738476b59958a226c865695aaff1912b5b5cb8e1b3503ace7bd543638",
+            "size": 361
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/tiktok.svg",
+            "before": null,
+            "after": "e91d75dce668f603d1b47d86ccbe30704293a3a18bd15956a47a7bfcc129b5b6",
+            "size": 353
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/truck.svg",
+            "before": null,
+            "after": "4b902afe5041445fc93196ab7eeb1f873ef7aa03a6272b44e0a3936b326605a0",
+            "size": 448
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/user.svg",
+            "before": null,
+            "after": "33e40b3ea195cbbeb66626a2b275230caf5bb1d3b33673164563ffbbcd305e8f",
+            "size": 304
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/wardrobe.svg",
+            "before": null,
+            "after": "a6e218d5b1b79de7d9c75d9c89fd3ccb7b750f04576de4fa7be154a707f0f87d",
+            "size": 378
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/img/x.svg",
+            "before": null,
+            "after": "c096f69281e4ad47f4d18642376df6542435df330415264f9ee1361de4b5ba18",
+            "size": 222
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/js/alpine-collapse.js",
+            "before": null,
+            "after": "08587dd569c887d32fbbeff04ac35858cd0abf502977a5576c689fdf46fdb8eb",
+            "size": 1447
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/js/alpine.js",
+            "before": null,
+            "after": "8e20575ed77b464c9c7450434a9ff77c7124db5f19a699d15d8cb6cb3ad20f0d",
+            "size": 46345
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/js/cart.js",
+            "before": null,
+            "after": "fa97724603a7ccbe5aa525f70a5aca50a8287924961290659ed53a5c621058fb",
+            "size": 6483
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/js/cookie-banner.js",
+            "before": null,
+            "after": "93ea256978012a5c0cd8307c3aa21656dfbe102fb20ce3f0545ca81f0cedc412",
+            "size": 1351
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/js/site-pages.js",
+            "before": null,
+            "after": "d7cde23a8dedbaebd0ad38c84f5734af7a5cd3f52409cf982fb6e68e27075aaa",
+            "size": 12334
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/js/store.js",
+            "before": null,
+            "after": "d444e5527d37e7f6cb797cf9a531ed593a7228dd9c25b376e29a8ba78d31e4db",
+            "size": 8200
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/js/wishlist.js",
+            "before": null,
+            "after": "26f722db21ee969532055681d9161266763ac861433d6155404358907bac2777",
+            "size": 1784
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/_page.html",
+            "before": null,
+            "after": "459354c7bd10dc272367b9d86766041c21f6304b57c300be312442fc5bfbf4a6",
+            "size": 2501
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/about.html",
+            "before": null,
+            "after": "4d876b94e89f6a99d3393195c18c6e25154e4d6c69775874d316c6b1a2c76a52",
+            "size": 3433
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account-addresses.html",
+            "before": null,
+            "after": "b389a428c35758b81e84c10757ec9848fa66331d7b079bd7463b732432619033",
+            "size": 5948
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account-logout.html",
+            "before": null,
+            "after": "7e43b8293e00342e39dc4e5ff732edb3dcf9a5fcd8a9eda71ddb29469aee3c92",
+            "size": 4334
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account-orders.html",
+            "before": null,
+            "after": "b5df794fed4b871308974a07f8c1f8bec58c7f5e902e21ea3da3bbc20264297c",
+            "size": 4650
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account-overview.html",
+            "before": null,
+            "after": "48288d4bb3cbe4662401cf104f28bee02b0e08b24e0e7998faebd2da19f6d0be",
+            "size": 5691
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account-rewards.html",
+            "before": null,
+            "after": "c6a79286fcc479bce23f14010bce7d338dd0e9e18db9b1ac3d344c678b879ca9",
+            "size": 1469
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account-wishlist.html",
+            "before": null,
+            "after": "c27f5060bea5890a4551a4e38afdead6ba5a0bd881dcc8f90070562c4de68383",
+            "size": 5630
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account.html",
+            "before": null,
+            "after": "90744f05a0b56e2eda1c4ff2db11572973f290e13bbb4ccd7c3985a810e5923a",
+            "size": 2580
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account_addresses.html",
+            "before": null,
+            "after": "bfc36424700bb3a67df906f93f33deedbf8a17d1e2bfe5cf78df76c284391622",
+            "size": 6193
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account_order_detail.html",
+            "before": null,
+            "after": "d533e5eb1d1749e63b8a52d845b33dfdc8a7920d54afa4522b275a14a72dd81b",
+            "size": 4225
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account_orders.html",
+            "before": null,
+            "after": "ce70c9c374d52c098ae04722ba7e124fba83a74a8a229031384e1a8f0b5d94ba",
+            "size": 4167
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/cart.html",
+            "before": null,
+            "after": "54c895c1bab2dcb38d20b63343a2b9544b25487053c8ef3b9ee88fd37ac11af3",
+            "size": 11120
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/checkout.html",
+            "before": null,
+            "after": "29ac492aa222dac81c12c93e24cb1318380cb7fe133d1b3d7b0d57ada9438d49",
+            "size": 23652
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/contact.html",
+            "before": null,
+            "after": "dda795094d67618ba48c454f7388f25b71570c90f5e06fbc109797bbe1d1a253",
+            "size": 9651
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/error.html",
+            "before": null,
+            "after": "f5870477e8988ee315fca1b028509abb8b5b7b830332007b1f14bdb0f0ddbc65",
+            "size": 713
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/index.html",
+            "before": null,
+            "after": "91dceac5246469b7b13ed51167b724e1a87d71ff2223a2cf21095c8d0c32ccab",
+            "size": 13849
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/layout/base.html",
+            "before": null,
+            "after": "971289c2eafe3ab907cb0bf2028c97fbc1e259d60afc9eebd11fd57da266d872",
+            "size": 20960
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/login.html",
+            "before": null,
+            "after": "6e6dd9b617c75d72e0c6601666dd4f1beac5c2643fb4d22b1b4ab7e663557a33",
+            "size": 6365
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/order_success.html",
+            "before": null,
+            "after": "2b63e140d7492f8a46c841def2d3b3e7bd4b3e9d192f476882dcacfb99d82efc",
+            "size": 2909
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/page.html",
+            "before": null,
+            "after": "4f54cf7b67aa5d84ba3b4d62548b1132f3ed274aed174d8f7d6da37fd6e04224",
+            "size": 1450
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/product.html",
+            "before": null,
+            "after": "684604719b24d467b82be895d161b4ff188d6678d739662ef8bf798bb44f648f",
+            "size": 17134
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/products.html",
+            "before": null,
+            "after": "58985a2afd444f7ef229d5cb5b7e0644f927f2c3022cf3d5993426cf26680eae",
+            "size": 4745
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/service.html",
+            "before": null,
+            "after": "0fcf2ac879a6e6311d658e005f080e58c82f61bd9b0edaef94fbb13231ee7ded",
+            "size": 8850
+        }
+    ]
+}
