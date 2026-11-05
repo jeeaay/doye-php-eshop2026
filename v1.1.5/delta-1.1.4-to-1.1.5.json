@@ -1,0 +1,129 @@
+{
+    "schema": 1,
+    "from": "1.1.4",
+    "to": "1.1.5",
+    "php_min": "8.0.0",
+    "db_version": "20261103150000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/common/middleware/LocalePrefix.php",
+            "before": "1d3db17122911dc2222e5b01729bad37f274332cdce7e845ffc7ef625ebb1940",
+            "after": "aa9fc91e2930a7c32f909064b0bb7c3110b547f97c8323b8f0e0288c9f7e1759",
+            "size": 5587
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/StorefrontService.php",
+            "before": "a191adb6badc2d0f40a10c4f9b94bfcfac257f4f8f4901d69ac72d146a909d9e",
+            "after": "9baf4166232b1d3c626bca46677bd89375dc25ab1c2755e84fe9ff122a981da9",
+            "size": 16691
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TranslationJobService.php",
+            "before": "be0b153652ddc0f9963249e7edc87db317bc4f9f66989a4b1bd547fb8e3e046f",
+            "after": "4d02253cc73387f9e3833e68d3ee025e7f358bb317904d3836afe1f57c5c8b3a",
+            "size": 20260
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ar/site.php",
+            "before": "b1d11016c36e71c4f30af925cd7cbeddaea97f83065e6828ed7d27836336b74d",
+            "after": "8d0c60ee2a5b979d9b4bccd69acc99bbc38337591564d684467f4789a6fdd1c3",
+            "size": 3676
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/de/site.php",
+            "before": "35b5d2a2e2093bbd0fe02414d92753fe940d4dacaf4e6cf4cbdb3b939867e217",
+            "after": "64281ab34f90f8f94cb6d781efa0ffa97a66caa2cfce8a957efc175ba57e9a1b",
+            "size": 3168
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/en/site.php",
+            "before": "c2b92b0b3046003e25fb2574ba7aa3df4db38da6f3c6ec648419726a431814c2",
+            "after": "edb68ca580e73fdeadc8a6f942b9616beccd1f2d6cd49ca81e8593f5bc21261d",
+            "size": 4396
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/es/site.php",
+            "before": "bbf7e8cf952da163b71d6ad2d7205103b218b0be06b0a516579c0dd8b7ca727e",
+            "after": "31b95fac5776d8a665723de7137d137ebc13766ece1010fb35570404d1b294bb",
+            "size": 3173
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/fr/site.php",
+            "before": "0b95d73d3469ce6d4cb4f669442dc649978403ac142d5633a6bff377496aa3bc",
+            "after": "a11b42136698ad861d34d366d7611cc26eec019ed64e4d1f63ec03f093a4489c",
+            "size": 3226
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/it/site.php",
+            "before": "cc784a4eae2914dd7ac1faf51373d384f3cdbc59a1731782ad8fafac35ba496d",
+            "after": "bbb4900963d946409c7a4aa9978806b6a122b3ed836dbc40a3bb5a58387b5c3f",
+            "size": 3145
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ja/site.php",
+            "before": "48ec05a469ae01bd26752f84f58c7fc7e360db6282fa8012afd60e712131b3f1",
+            "after": "1668902c2fd70db436648efca6b459e31e1a5e3de24d3dec7ddaf840c25f77df",
+            "size": 3246
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/pt/site.php",
+            "before": "b1beed9a54da59786be540ede9ccfabef67eeeceae78d9d3ae7096494dc248c7",
+            "after": "12272067929165b7c9d3414a94be6034e0845acd00b81e0abc5edc00cfecdf21",
+            "size": 3136
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ru/site.php",
+            "before": "68e335a844963a8c8ad6cc0c1765c7d7cc9b79648e16377691bc71d6920a85f9",
+            "after": "e38e4d06aa9ca667bf641a2ad39537c645fa1dad942d6f070463e3a63a692540",
+            "size": 3923
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/zh/site.php",
+            "before": "1754804608d1bc4beb52298e958ef4381d3cdae925e28dab3b0ea3861e1742bb",
+            "after": "ec14a00e2deadd73c0ec74d120bf1e19222d295a14b6986c511c9f0d726f0c26",
+            "size": 3153
+        },
+        {
+            "op": "modify",
+            "path": "app/view/site/layout/base.html",
+            "before": "64283d4c01ad35e01f88bf8b8daaac1cb6fe697e2894a4e145428a675779052c",
+            "after": "27ec8defa7157e0d2bab7e0b7c751fff697fe797a08c93225534a9c769b8aaf2",
+            "size": 20757
+        },
+        {
+            "op": "modify",
+            "path": "app/view/site/product.html",
+            "before": "f7e8f64bafa81cb914f5aa774e41a1764c60654e3d7181a86151aef246eca60c",
+            "after": "a67d4208d841c65446b8b173ec46f3cd3bde144fa7ff3cdfe863c31900808dc5",
+            "size": 16841
+        },
+        {
+            "op": "modify",
+            "path": "config/update.php",
+            "before": "7ec0e18873832868daa6844ad618215b350323e449e5a7e33aad2cbfe1cf8ca3",
+            "after": "0b230e66cde8d10b87e723cbac6625d36ad37a6ba46054a789e0692a5f633e3c",
+            "size": 5068
+        },
+        {
+            "op": "modify",
+            "path": "docs/i18n-multicurrency.md",
+            "before": "92f54918b1a6dac1cb15f9952804a14388789c0b9c684826b8fb719bdab77c06",
+            "after": "0c2e2e95574a993124db252fd85b53237a0de70ae33669c16db8fdad8b44a27f",
+            "size": 16737
+        }
+    ]
+}
