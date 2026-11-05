@@ -1,0 +1,38 @@
+{
+    "schema": 1,
+    "from": "1.1.7",
+    "to": "1.1.8",
+    "php_min": "8.0.0",
+    "db_version": "20261105112800",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "ba08fb026d40c8521df9e40c600a146d1845e3611ed710255b988275b8da7574",
+            "after": "0d8e7ad3aa0f14e31d1bbe12ad25c0e955aab3eaa5dfcf91b18eba40fb64b91d",
+            "size": 22574
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/TemplateTranslate.php",
+            "before": "d1c30cbd5f2e68862273586c25332cc37532cf257d5fdca3ea3daecec94d914a",
+            "after": "529e183a9e7b0d470261a09a3862426ccd06f22cb487d0393d009f95baed589c",
+            "size": 4140
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/template/index.html",
+            "before": "9f784bf0ff10f7257ed8d9fd1ec984fa8b01cd0c3099d1cc7132fbfc686fe78a",
+            "after": "0b5fa03cddf2bbd020c8fa661ab9a8e1a0648288edd8405a0b1c767604a8f131",
+            "size": 6425
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/template_translate/index.html",
+            "before": null,
+            "after": "814366654603ce525564fc313a4801638c2976470938d6b861db6cccd729e9c2",
+            "size": 9091
+        }
+    ]
+}
