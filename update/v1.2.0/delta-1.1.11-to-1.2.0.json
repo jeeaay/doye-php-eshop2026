@@ -1,0 +1,507 @@
+{
+    "schema": 1,
+    "from": "1.1.11",
+    "to": "1.2.0",
+    "php_min": "8.0.0",
+    "db_version": "20261105112800",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/admin/controller/AdminBaseController.php",
+            "before": "0b0448a8e7c6f94216d2dc51d6a30f0366c353ab4cc2d678605c000bd082d20d",
+            "after": "4f54f6e817b176e5713d04e06b214e5d1dbf11ea659d68c9ef5a5e13ad9038da",
+            "size": 1846
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Aftersales.php",
+            "before": "3d0975e77737cd794315b934489490bc39b265eb97860034d0c0ea92c2b66e69",
+            "after": "3b70465042ca338496a7d8e218cfb60512689474a6ff63f72e3bf44ea690b9eb",
+            "size": 3133
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/AiConfig.php",
+            "before": "4fc903c4ba1b15a9448a29589a7e2beb05fba7d9453e87ac5c87ed5b393814b5",
+            "after": "a1fa222e227a741d099aed2a7565edb4e37dc61a7db4aee93b0bbdaa3c89986f",
+            "size": 851
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/AuditLogs.php",
+            "before": "1d56efca2e3c3e3b2a19130c356dd6328337dbebfd4997b852e49c45e4fdee36",
+            "after": "093f5c532c71a9b78551441ed4d52a68313738d2a52d35b5d8bf502eb63240d5",
+            "size": 2750
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Auth.php",
+            "before": "092eb7712f8d6761567a9d01d0bec73abf5fc5f575f608505e9f0d9efc6429a3",
+            "after": "304a56a690b8ae1bfb0a1d3cdbf8b1d978f7c8b3ff69dc313936f3151795d692",
+            "size": 8332
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Brands.php",
+            "before": "79d26631bf53a0a4df150abcf4769f4cd91ea5a7b65ad4a1ac57da95c772e05b",
+            "after": "194ad3ef28d67dece7b70d05f328b8ac22fcfcfd8ecf7a8bc9960f79cac4ea27",
+            "size": 8507
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Coupons.php",
+            "before": "d069be48ad33a1c0d3baef9d69e8274c847d73724174fe7c8f935fc99688eb73",
+            "after": "6dcd2e0c6ebe95ac6e4c603abcddd57499b0dda8400f167790934d4ca1bc8a7f",
+            "size": 5341
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Currencies.php",
+            "before": "f50e32ccf7380db4517b9a3653f662427c64acc86250ff0a5378ff5cb50c2ab9",
+            "after": "cb354675d197425883428ebe26236b489baf0db69475f50547dd5f6dcddca74b",
+            "size": 5347
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Edition.php",
+            "before": "1c91a4c0e2ed3b62592547426be52141ec3cc5bef1e8d0bb6c4fec1858c2ae2c",
+            "after": "eb1b10b8adcee96a2a12b40cae8c62e8d902bcc8132a3d52ae5679b33b93ec7c",
+            "size": 1550
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Merchants.php",
+            "before": "d87e681f95feae984da65d233e88bae6ec5c1b4b3797acb84b64619b7351e9d6",
+            "after": "0aee04a944ca0a747c7ef69213c61001b400f93cdd4e5ea2eb6de7c5a302bb11",
+            "size": 4631
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Messages.php",
+            "before": "2d7e97238b713538aba4e14c5c991740674f3494fa009f537248f91eea8b8627",
+            "after": "e374559dfcae748b5279c53734175bdce492ea213b579ea9d9ad92eb0d29c6be",
+            "size": 3992
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Multilang.php",
+            "before": "83ca5ed93af702efe63d1cdbc7ddfb536424476976659d828add489c601b874b",
+            "after": "0349bee71f24dd325b5f3c622423463cd6b2d5f6bd63973eb616d83909816ad4",
+            "size": 9046
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Orders.php",
+            "before": "7778514809368642bc160678163d8bc06a9a96f573e326dfb4dc2d43b77acd39",
+            "after": "f27d76d7d43c7a660e67bae20ea8b7101f76994f448368f3a25722ba63f3aa48",
+            "size": 9735
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Pages.php",
+            "before": "e3fdf854bdf63e2ad797612687f7cc0a5a2acc6cacb8ebd6bf369ceafed4db73",
+            "after": "31572eafb8ceca74b8027054663bf4ac572405b34e238be59aae60827bc0ccd0",
+            "size": 6150
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Payments.php",
+            "before": "aa9169d2ce029d50149e402457c3df20837eaa214e9c578f6634de8ea3b4dd16",
+            "after": "1049514501caee927885d47a0da1857d86997bca9be34a6e33eda6b11f1494fb",
+            "size": 1890
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Products.php",
+            "before": "bd87da31012eee0510b3aec1b0b06f060d6fa414773bea8ca5046fb8f55ab270",
+            "after": "4e5f8b845c8b1176b294f8fd0f9244835425b7f89ed49b3a8545a8b9346fd4a4",
+            "size": 11234
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Security.php",
+            "before": "fa21a2ff18cf91f8bfbcd846a7c6f18ab4502e1a2912da19837ec4f903b6e32f",
+            "after": "3c0b7ce6016bdbe553171682b53133e72ef7ea6dea66790abf18f508a1797a48",
+            "size": 10088
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Setting.php",
+            "before": "f19959c9f200a64f92bc2a7cf819f351cf952874368dfc53d1ab5f988da9edf1",
+            "after": "b71138196bd7411baef93a912ddf9a47bbdc2ec828c588cb264e539c048f44f6",
+            "size": 4237
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Settings.php",
+            "before": "fdabe0e5c8b386f23402f4395bbebf93fd3aff26f66a6871767b51df1bc3f4b7",
+            "after": "b415dbffbbe54dd0cbcacafb7cac2bdc4933be70ac3e2d0c2ec8698bf689baac",
+            "size": 2069
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Update.php",
+            "before": "0eb763f9517e09ef5327e0bd5d7610a01cfec1e785c093a571fae6fae516e84e",
+            "after": "06f27bf045ce1980eb181357bf8d9497fe63efac908a672c5446a982b39f2fa3",
+            "size": 8945
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Users.php",
+            "before": "c7014a60ecbbd42f92907ea39081a2ef7120679d33875efe9beb05d91f37900c",
+            "after": "7017c24dc672b3f6c99e0959783267ccc7efc5ec6bfc72ef7bde7f604577fe5a",
+            "size": 2632
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/route/admin.php",
+            "before": "59f697d13d83f80296ad38835adf1775f8304c90bee56973a3a5267bd2b35daf",
+            "after": "880861c7898d99539237dc3ee3e128d4939ad73a1daed21fe06534e04718b508",
+            "size": 10687
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/aftersales/index.html",
+            "before": "d38584432d2fa1c22d7358b40a96e9e43a88153e24890da9f3d7e97aa9f28224",
+            "after": "097316664ed513417c40f41b1bfc20292aee778ac61205055ec62c91a0f82e57",
+            "size": 7436
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/ai_config/index.html",
+            "before": "ca6f03079e5c2922818d4a8e9466054f2b4710f38de5e0dbd589b063cd9b8911",
+            "after": "47e67d54f6286a5b0b41e6ddd2c7dd4dd1bdae009aeaf706abadace9ee8936cd",
+            "size": 4843
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/api_keys/index.html",
+            "before": "7085f1f27623f4aa60d19020859b36ff7ff273d2f40596dcc6b22d4678f20540",
+            "after": "e342b9bc84840e819718ea96d9819df672e0cd23d1afe801544cf68538250e07",
+            "size": 8936
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/audit_logs/index.html",
+            "before": "22bcb2f49717441e0d955277e43300da7f637f9c056795410ee3dd27480b7e10",
+            "after": "9790969bee0b357ee2a011e4f4e45f4344f4c9a800d51bb3dbf4efcad758ad3b",
+            "size": 7822
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/auth/login.html",
+            "before": "a76fd3a8e4c4133807137d994a42d51204033e1a46deeb0df5ef4c0327d9a682",
+            "after": "50c67891677d72d561e12a874ad62a7b07a87eeb1a696f0d4c3bb665f1fc5cd0",
+            "size": 3779
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/brands/detail.html",
+            "before": "0ed81e41a074dfd9c2a71072085ced3d290e67eac857725bfb494830bfeea556",
+            "after": "8f4998cc4db5db864354062d2d89dea0f4d92e94e20bd7d697b58b38010911e6",
+            "size": 7731
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/brands/index.html",
+            "before": "2624525e070818c050bb2e51ae9912e7be234bfbe21ad18bd21bf4ad1d3ff3f7",
+            "after": "552d68d7b8cf2dd89eb3eac593496f1a57c5af658585ea04a2b25d9c02ecf158",
+            "size": 10033
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/categories/index.html",
+            "before": "3052ca38f5eaa6994c9b43ad9741e38cfab7c8959b8da929402ee79a6ac18d0d",
+            "after": "46cd29b75c00e37e3f822e9fa6ef79d9fa640736775c95d967f48ae89319c44a",
+            "size": 7365
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/coupons/form.html",
+            "before": "5ec38c3e8bda7868f0ac56de7424d77c9dba7d6472716a0562984b48a65c0086",
+            "after": "fa6992ce68500295e9834e33711dd5412ea072297074ef7d2e8ae08b73280ff1",
+            "size": 13763
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/coupons/index.html",
+            "before": "dff2e1ff1f37b8fd6db0d75ff52329f8bb93e104691d0561c7255ed657329d74",
+            "after": "048b8f65221dae671057375040c9544a662f5098a161e70581f4a35136743d10",
+            "size": 6684
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/currencies/index.html",
+            "before": "914117a4fa48b0f5e5b788098c45a16a11a1e633ac4b01806ac1a271a9384166",
+            "after": "f9841a779ecb04ff8602a260a68891e632a05df57d2a37f542ef68cf6f056eff",
+            "size": 38015
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/edition/index.html",
+            "before": "cad5878c49cfa32394bf6cd17b0308cfbb07820ad99130ab945b7b2375ede5d3",
+            "after": "d0c02f5c4bd622675d574c8e37986cc4d63168d53880f5bcece8fe4c4d4a31e5",
+            "size": 12965
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/home_ops/index.html",
+            "before": "4bf2204b67d069b7eb0b5b76cc17889d84c28d29473e36055438bbbdd416f861",
+            "after": "eba4cd00205c92fff4779e6c0ef25632aee1e3b9e33ab45d2a792f4b6f70f814",
+            "size": 37554
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/index/index.html",
+            "before": "ca0e3b8b74ce5cc085dda3ecae21d3c248cbf309c32226deb08497db4d75e187",
+            "after": "e471f56d60e6df92eee68b49e473a0668eb4fd113b4298b98417ed7a3e34792e",
+            "size": 6806
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/layout/base.html",
+            "before": "09b717c1fa767982c4fcef3846ba3a127ebb6d79f407f5f9138797cfc7885008",
+            "after": "1fcdc01595414cc40abd758348efadfba9dc3b9d5b1401fbaea9481c66b89928",
+            "size": 9105
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/merchants/detail.html",
+            "before": "823470b898bd56f3d3c48462083596a935d355e34c887f09d87d71206796b4c5",
+            "after": "6d5d6835043f97fcdbcfea7b99ad6898cc694eff4859c2a5cc182a104ca9529a",
+            "size": 8347
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/merchants/index.html",
+            "before": "fd5f5a9d0437660407139a83b4c74d1fe800a353145d3bbc8c4e5e733c7e6bdd",
+            "after": "ad67781953cf22ce61e198512b2cede3686ddd4cfc719925fae7420982527d05",
+            "size": 8339
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/messages/detail.html",
+            "before": "68cee55c4c16734804f540d5d36dec23d5eafe5242239c4d8c7339948f448f88",
+            "after": "864b243b7a29214eac83cb6f9f05fb1771ea90741cecb345c8b1e6bf42b886c4",
+            "size": 2603
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/messages/index.html",
+            "before": "d8d5ca81ec01c78617aa91c6e1376f2ed5d4c020abfb34b66133f8d34244719b",
+            "after": "a88d0c40ce7adb086faf24a4ecb34b2359e93ab5330ed9bb8cbadba91de21633",
+            "size": 8797
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/multilang/index.html",
+            "before": "a595f1ba9f50c71166362f346c12909c8a1b42319f79182778a97d81c06e7682",
+            "after": "c601f84b535f0b7058f00a5d880083422e5378d3fbf2d0b341192f6bf5fab463",
+            "size": 16095
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/orders/detail.html",
+            "before": "28eef3d847001cb5d089aa8ec326d499b0b8424e40a81b7cfad2355bff8c3c3f",
+            "after": "acdbf921e99da90c2a3f865045dd24b532439877f2aef3363067c7635a112bee",
+            "size": 7759
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/orders/index.html",
+            "before": "8cba81feb3ef67a9cdb9f3acb398d9e5f4be8811d03298176fa97d8c11956ae0",
+            "after": "15ec7c3553ff4a19afc7b08d6e6cb1495f55740552dcf088236df3cf293442b5",
+            "size": 9129
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/pages/form.html",
+            "before": "1ed0464dc3dcaaa19aa0c100360c27bb59fa1f2d6a13f5e39c491c4c63271185",
+            "after": "86db8f21ed7243d62ecde9365ca48da4576a37a17e2ceef69f7178a58d3a8879",
+            "size": 9660
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/pages/index.html",
+            "before": "b55bf7ea767e98eba6b1b5104e9016932f818a7fe2bb8125c7431d24f2ca7714",
+            "after": "b85b25ffd16717668c01b04dde089d91e28d927c66ce2c093fadf85cb287413a",
+            "size": 5564
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/payments/index.html",
+            "before": "7701785de0adeff3480513e7eaa387c4b8d81d45d32255dcac4539373c29911e",
+            "after": "f60d91ddeb840e14ef420d46df65c962540bd40d085372a11b70ec4cf87f164c",
+            "size": 14958
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/products/form.html",
+            "before": "29345422aaa5a0dbc7406de8c75ffe0dc5b2646bd6482d9a2e6bdb8f73ea45a4",
+            "after": "7cdb5932d3badf4b4c55d7fb993559b12a0e454ba33f76db49e0c48db17a0fb0",
+            "size": 24322
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/products/index.html",
+            "before": "54a181dc5b8f2c10d02a8fae56f816cf97ccc311b77b2dc03b26f7c872a2c5bd",
+            "after": "0fd4e7880a9820ce92d7a8b443a68f3242b155a3ad6bcac48c215ec84811a320",
+            "size": 5199
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/security/index.html",
+            "before": "82034061e74bba4e58351f25d904b6282c3899247df2e08d42bf7b78f1c64211",
+            "after": "244a9b6ff80a096af41bb70868e331c98850ed449c658381a94b7a426ad580d7",
+            "size": 46863
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/setting/index.html",
+            "before": "de5ac3c184acca216909927181503e83b3350d3a9fba36de6e47b9489e77fae2",
+            "after": "215064cb3613fdde909d8ab48489834811d29799ce9055c77860e9f6824522dd",
+            "size": 10300
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/settings/index.html",
+            "before": "0b40ce78d2d1819465bd0d663973ad9c345ce940c5e1211bb3833e2393c0d134",
+            "after": "a82f15c62b30c2070a87df00b8d53e941a75f9e7e401c194866fa920fa0b8a93",
+            "size": 3108
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/settlements/index.html",
+            "before": "53ddcfdecb98bb18e8335f0e40131d8fce2f5a6089893b2683f9b072c04fa523",
+            "after": "3f8c338934f75ca4ceb1d52a198313be72b3fb4589986573404222a1ba2a4e9e",
+            "size": 3751
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/staff/index.html",
+            "before": "39a57befcfba1d7e241ffc7defc28d9d59e969fe02d22b26241e5808b9ffb66a",
+            "after": "7e584f3172b440f87a5f763cd50502f408b5d19ff42cf22a2bd249d0ac9deb79",
+            "size": 12292
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/template/index.html",
+            "before": "54d2a4dc67573dc0b949b9ef6881998fb089ad4e57f59be771354fdc13f6fbe0",
+            "after": "f49800f8be86474e82f18b8542b4e8a1c0e83a96502b7da4f6c0d0110621a7ce",
+            "size": 14202
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/template_translate/index.html",
+            "before": "a4097b551b1fb8c19a17dfbf777eaf0088f01f84ddfd8e969ba9db4dc5594945",
+            "after": "abdd8ab5100517152da868bc96fe91d1d2b0712ca7b662b64e36db5258e70df7",
+            "size": 16656
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/update/index.html",
+            "before": "03c764d5a74595a1001d965dfa85b43e9a0160bd485251748843ac6900d109ed",
+            "after": "ed14ad41beaa26dde1a0699713d9bbbe53612cbd6c7b06c7f26019e1d7dda39a",
+            "size": 34319
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/users/detail.html",
+            "before": "a08b904a38128b45a20e9e81485f7d6426f8fd40ee11b0f307b6e996aac149b0",
+            "after": "8f89ea216db821239638f5fc22ac7c31b2630c3d12f2cfad8199a01cfcf8c550",
+            "size": 6318
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/users/index.html",
+            "before": "fd11c3065a57e7469fc3d2d93c8c528e71bcdafabba6690ea4f2f28f15e077d1",
+            "after": "c33096c5530551c2a0082ba027bcda735221590cca7a4796e2273b176da19b15",
+            "size": 3496
+        },
+        {
+            "op": "modify",
+            "path": "app/common.php",
+            "before": "80063aa2889ab0443f3af029ad0b640045e27ef4abdddc0209b0a24ce28316a2",
+            "after": "6b05a9dbf8db4c1e5906342df51546538900861e1776aae0f549dad53a9664d2",
+            "size": 10433
+        },
+        {
+            "op": "modify",
+            "path": "app/common/middleware/AdminAudit.php",
+            "before": "bd3deede80b45e55ad16dd96bba65fa443ba208704e902a5e69cbca717f3ab49",
+            "after": "fbccd21fd718a9a92d7e7c79815f4ac4315fc56ec256d62011ce891187520cac",
+            "size": 6546
+        },
+        {
+            "op": "modify",
+            "path": "app/common/middleware/AdminAuth.php",
+            "before": "de400a5e429bad6e2f47b5f62f7a04ceafcb677c22e583bb3c326344f37e1f69",
+            "after": "c2e8d766f027a42b708d6b57c5d1a357e9647422fd1046ed6fa83c6369593009",
+            "size": 1673
+        },
+        {
+            "op": "add",
+            "path": "app/common/middleware/AdminEntryGuard.php",
+            "before": null,
+            "after": "d8f52f65ae2641271b00d72865560f645f0d358bbaa155277a2a4d69a3173c36",
+            "size": 806
+        },
+        {
+            "op": "modify",
+            "path": "app/common/support/AdminMenu.php",
+            "before": "d9a9f3452be8a184cd32027c83c7fa061f2ab8bc72f0331d882e81f3e546bba1",
+            "after": "b8de3b3576bf1e45ea0f726a89198d808903406efa1bc64930c5ff0e2b313b57",
+            "size": 8180
+        },
+        {
+            "op": "modify",
+            "path": "app/middleware.php",
+            "before": "e929fd8abfc9bde29fb41bcb10debcb83660623a2525814ab35f4566afced06d",
+            "after": "3cf24c53b4ce0df9b72645597de48040a9b0b1de9d97191385bea2817275496c",
+            "size": 391
+        },
+        {
+            "op": "modify",
+            "path": "app/view/index/index.html",
+            "before": "d5ecb5d5b293d9246d8c4fbeae8650ca3c446103b0fe6eaf7acac8c0f384169f",
+            "after": "fd221a2caeac700ad0825a97342671bf504091f795502b9917cb0a48c488c0d2",
+            "size": 12501
+        },
+        {
+            "op": "modify",
+            "path": "config/app.php",
+            "before": "8e5c0c44131ecda265a12d7226effe392165c7e4de1496a9bf6e7f1f8ffd27ac",
+            "after": "291d39e93d1f07c82e352b3e8ba1e02bf7a53519782db57093d22af7f216d26d",
+            "size": 1747
+        },
+        {
+            "op": "modify",
+            "path": "config/security.php",
+            "before": "3e7e4c71703ca3d0d8d1a76c333dd810826cd4e1a24caf1e4598bdc9f873486a",
+            "after": "a062bc5b1164f623bfa15943823f79cd773d2d913c10776bd3218eec9e8c9d1e",
+            "size": 6257
+        },
+        {
+            "op": "modify",
+            "path": "config/update.php",
+            "before": "b3007ed3f55e0d21f7f1dc37ab12d37dd255943bf1cb7b164eca33483a83af93",
+            "after": "cbfc744067f9a87cd8322eb1be734dd5aca3b9c30f5545ca20278a880871824a",
+            "size": 5399
+        },
+        {
+            "op": "modify",
+            "path": "public/static/js/merchant-profile.js",
+            "before": "e2615f4bf1b22c4d75df5d39cf6bdb5569c52c124c8ac57defa8b710f8a24ac6",
+            "after": "b9b46300d58b3404f9edc68cb3478a69266511c7a2ad09a8a6ab8cdf7990c70c",
+            "size": 7119
+        },
+        {
+            "op": "modify",
+            "path": "public/static/js/product-editor.js",
+            "before": "c5f1bf3c746fb4443c59d005b9cf5349e02ff307d332749d8c698864a59fa98a",
+            "after": "cbf99636256ac1fe13a27e074e64fa6b5410150113782c41ba43c1179a86dd3d",
+            "size": 26151
+        }
+    ]
+}
