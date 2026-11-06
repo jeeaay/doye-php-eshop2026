@@ -1,0 +1,185 @@
+{
+    "schema": 1,
+    "from": "1.1.8",
+    "to": "1.1.9",
+    "php_min": "8.0.0",
+    "db_version": "20261105112800",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "0d8e7ad3aa0f14e31d1bbe12ad25c0e955aab3eaa5dfcf91b18eba40fb64b91d",
+            "after": "e168a7d902f2a1abfe086ffa784ebf558a2fab2e66c1f2011fc5725a903cc733",
+            "size": 24754
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/AdminBaseController.php",
+            "before": "c20eb6beff63d4077c26ad4b2265af563d24bd20739c979fe3038ac6a249a6c0",
+            "after": "0b0448a8e7c6f94216d2dc51d6a30f0366c353ab4cc2d678605c000bd082d20d",
+            "size": 1796
+        },
+        {
+            "op": "add",
+            "path": "app/admin/controller/AiConfig.php",
+            "before": null,
+            "after": "4fc903c4ba1b15a9448a29589a7e2beb05fba7d9453e87ac5c87ed5b393814b5",
+            "size": 847
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Currencies.php",
+            "before": "a578da5f24bffd1a9f5b8879f060e72d811eaaf070c66d1f8af66db9778b6dd3",
+            "after": "f50e32ccf7380db4517b9a3653f662427c64acc86250ff0a5378ff5cb50c2ab9",
+            "size": 5343
+        },
+        {
+            "op": "add",
+            "path": "app/admin/controller/Multilang.php",
+            "before": null,
+            "after": "83ca5ed93af702efe63d1cdbc7ddfb536424476976659d828add489c601b874b",
+            "size": 9042
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/TemplateTranslate.php",
+            "before": "529e183a9e7b0d470261a09a3862426ccd06f22cb487d0393d009f95baed589c",
+            "after": "597d9f17524b2272099164d2411540bbffb866623af8fde0fad4a366d801055f",
+            "size": 6030
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Update.php",
+            "before": "50890e466a6c8cdb5737d4f8939860d4af2b7c48b9e4bab2e1d58b0701c6ba06",
+            "after": "0eb763f9517e09ef5327e0bd5d7610a01cfec1e785c093a571fae6fae516e84e",
+            "size": 8941
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/route/admin.php",
+            "before": "3300c4c0ab4b4341dd5b1a699c48d888c8ae341caa8d1e8662e155cf2eea072e",
+            "after": "59f697d13d83f80296ad38835adf1775f8304c90bee56973a3a5267bd2b35daf",
+            "size": 10668
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/ai_config/index.html",
+            "before": null,
+            "after": "ca6f03079e5c2922818d4a8e9466054f2b4710f38de5e0dbd589b063cd9b8911",
+            "size": 4829
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/currencies/index.html",
+            "before": "aa00b8d52927d5159f7b43a9c864df84bd77f6e50cd4331b1c951ac8957997e9",
+            "after": "914117a4fa48b0f5e5b788098c45a16a11a1e633ac4b01806ac1a271a9384166",
+            "size": 37889
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/layout/base.html",
+            "before": "c9f3506d8679088c85f0c5645a1110139af4797ba83525236a058d1af9d1c18d",
+            "after": "09b717c1fa767982c4fcef3846ba3a127ebb6d79f407f5f9138797cfc7885008",
+            "size": 9026
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/multilang/index.html",
+            "before": null,
+            "after": "a595f1ba9f50c71166362f346c12909c8a1b42319f79182778a97d81c06e7682",
+            "size": 16025
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/setting/index.html",
+            "before": "6fc69212f9b1d2ff0d83b339d03a576218dfd9043526d0588b334bc6c3a84276",
+            "after": "de5ac3c184acca216909927181503e83b3350d3a9fba36de6e47b9489e77fae2",
+            "size": 10265
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/template/index.html",
+            "before": "0b5fa03cddf2bbd020c8fa661ab9a8e1a0648288edd8405a0b1c767604a8f131",
+            "after": "db986c82aaaa38a083bbb1f63c4ba9f294db355600b7c1402d10098b29ddc3c6",
+            "size": 13364
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/template_translate/index.html",
+            "before": "814366654603ce525564fc313a4801638c2976470938d6b861db6cccd729e9c2",
+            "after": "16bae2297d2869899e880fc195bb2077caa49320f2a09a96aad5036ef7285396",
+            "size": 16432
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/update/index.html",
+            "before": null,
+            "after": "03c764d5a74595a1001d965dfa85b43e9a0160bd485251748843ac6900d109ed",
+            "size": 34193
+        },
+        {
+            "op": "modify",
+            "path": "app/common.php",
+            "before": "70ff66a3714cef3a8e1b686c75da5bc7ac4e115633a1bde268e7695b792cb636",
+            "after": "80063aa2889ab0443f3af029ad0b640045e27ef4abdddc0209b0a24ce28316a2",
+            "size": 9092
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/CurrencyService.php",
+            "before": "13fb616a7043b755d72ea7e39b47479f12c074c85738aecb370b71cb1ca2a1e4",
+            "after": "6b3947e896dea9155bfe8325e0ce0ab8e66bb95056c4a0393afdab0af4430696",
+            "size": 22507
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/EditionService.php",
+            "before": "593ef5fbc6e0a548cd7fe44f37dc3a4480f5e67f7c7e8d9e06f836dc16ec7231",
+            "after": "e56b5a5961a9ad817e48d23745e6279680894454495744b4d0a9f0fc7d47813c",
+            "size": 7721
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/LanguageService.php",
+            "before": "3cc7b0b92a1ab8703b33028ed77f4d9cc068745c33f99ad3b737ab7f9a9e110e",
+            "after": "545847d7109bb70dff3ed9ffec22bbf290b6225f12538ad2156c8f5984660fe1",
+            "size": 4220
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TemplateTranslationService.php",
+            "before": "79523e29a7c70389395e9f1d630b4b1b78be80f493ed583f4b1a517a09e94cab",
+            "after": "710f019666cbe76ce79c19e76b53d4d598231979efa220d88d8f9adf07fda94e",
+            "size": 11353
+        },
+        {
+            "op": "modify",
+            "path": "app/common/support/AdminMenu.php",
+            "before": "cfafa7b0b99515b3acad8aa8d357182fe178ef9a540cb973a705200d4502ae1e",
+            "after": "d9a9f3452be8a184cd32027c83c7fa061f2ab8bc72f0331d882e81f3e546bba1",
+            "size": 7671
+        },
+        {
+            "op": "modify",
+            "path": "config/admin_menu.php",
+            "before": "0a27c6fef0185ad0261aae158675e7901f483a002e1a4c760e9ee97323d93542",
+            "after": "267bfd59955c12ca5d93deb2441d7a0b105533ff40579807f7a867875e6ddcdb",
+            "size": 5005
+        },
+        {
+            "op": "modify",
+            "path": "config/setting.php",
+            "before": "1150bec9323bf0016882f98ccbce91e4d19b27bafda0ff5c9883a03357abb177",
+            "after": "614e7eb45cc9e32e40c65e75eb368c7fbf73e8e9967b0485da698e21284c2572",
+            "size": 16783
+        },
+        {
+            "op": "modify",
+            "path": "config/site.php",
+            "before": "5010f3f1d80ae15953ac56fe1c90037cb0ae2dd18b94f7d89fef06a8b8b94d35",
+            "after": "cef826c94fe678317bc9e7767e3e4c89b988d4357573fc2a9ea5045449da91d5",
+            "size": 4159
+        }
+    ]
+}
