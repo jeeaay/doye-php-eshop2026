@@ -1,0 +1,59 @@
+{
+    "schema": 1,
+    "from": "1.2.0",
+    "to": "1.2.1",
+    "php_min": "8.0.0",
+    "db_version": "20261106160000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Categories.php",
+            "before": "6ba6b4feec24c46972cc8de0890bdfa34373cbd361eb90e6c2c0b9bae62c937c",
+            "after": "d736a242f11e627a1452f88692ff2786136980565afbad6b3196714f4fcef2c7",
+            "size": 3536
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/categories/index.html",
+            "before": "46cd29b75c00e37e3f822e9fa6ef79d9fa640736775c95d967f48ae89319c44a",
+            "after": "42ab5266e3ae5ccfd8aa77babd50edd20e12bacfa61a0223f5b2a5c37d79ab16",
+            "size": 12336
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/AdminCrudService.php",
+            "before": "be51cdfe28c85a638a2380114a259ada338fe971accd8050c496429e67a271a2",
+            "after": "63ece7d8267777588fa2eae3fa95b8d6fe3aca439d2e086b9cc158a635275255",
+            "size": 57749
+        },
+        {
+            "op": "add",
+            "path": "app/common/service/CategoryRouteService.php",
+            "before": null,
+            "after": "3df5dc7e0cc945bddad35203d2a5e2f748c4e3013dcc3b3c3dc371a30347524c",
+            "size": 5884
+        },
+        {
+            "op": "add",
+            "path": "app/controller/Category.php",
+            "before": null,
+            "after": "dcb229da9fc4c88046bcccd885af625ff0be04784a01edc7cb3efb30587ae6ed",
+            "size": 3496
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000041_add_category_seo_and_slug.php",
+            "before": null,
+            "after": "f9ac7b98942e3ce53b367a4d13b2f6eb81ca818b479de67581fa000cf0c439ec",
+            "size": 2031
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/product.html",
+            "before": "684604719b24d467b82be895d161b4ff188d6678d739662ef8bf798bb44f648f",
+            "after": "d1322eda630332517a68cf6ab25086ef3299f4cc233861e113387c3d4cd3d10e",
+            "size": 17115
+        }
+    ]
+}
