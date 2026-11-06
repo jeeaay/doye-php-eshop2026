@@ -1,0 +1,52 @@
+{
+    "schema": 1,
+    "from": "1.1.10",
+    "to": "1.1.11",
+    "php_min": "8.0.0",
+    "db_version": "20261105112800",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "90bc5628dc7c982a7482b3747c53132d2efa2d889eb554d5086592e69e46906d",
+            "after": "0cf2e9bc97fe39f1db868aae08381ed70482037b7f5c8a64053181c3c98494d2",
+            "size": 26623
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/security/index.html",
+            "before": "a13324787c7fb4760e16b74af1dd2d2aaea2eee297842bce02e538883bbb49e4",
+            "after": "82034061e74bba4e58351f25d904b6282c3899247df2e08d42bf7b78f1c64211",
+            "size": 46632
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/SecurityService.php",
+            "before": "fb03c4a9a14f426c85c2275ca60f1ae5967b61836bffc28793bd76068b7b8b0a",
+            "after": "3c6d3cca6f5bec961ad51fd95651ed054ef733921548d8e13fe1cce82f60e274",
+            "size": 65222
+        },
+        {
+            "op": "modify",
+            "path": "config/security.php",
+            "before": "c7eda142d37df295c676c27fa4e4bc3e677cdb7ca835c209550ff92b1ff39f84",
+            "after": "3e7e4c71703ca3d0d8d1a76c333dd810826cd4e1a24caf1e4598bdc9f873486a",
+            "size": 6086
+        },
+        {
+            "op": "modify",
+            "path": "config/setting.php",
+            "before": "614e7eb45cc9e32e40c65e75eb368c7fbf73e8e9967b0485da698e21284c2572",
+            "after": "01a56c0e925d41a24bb6e84760745d57b6a3ae49c26044911ff835071f9464c5",
+            "size": 17508
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "96d3b7c3ca6ba00bf8f4da167841ce6f0a3723bacb7fa7d813374f3478e4fd55",
+            "after": "6835841f60dda26f44b804a98acbb8c73ef8ed74f89cd1e6abfc7012899fab83",
+            "size": 45321
+        }
+    ]
+}
