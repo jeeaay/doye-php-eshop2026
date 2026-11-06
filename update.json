@@ -1,8 +1,8 @@
 {
     "schema": 1,
-    "latest": "1.1.9",
+    "latest": "1.1.10",
     "php_min": "8.0.0",
-    "signed_at": "2026-11-06T10:27:16+08:00",
+    "signed_at": "2026-11-06T11:38:00+08:00",
     "steps": [
         {
             "from": "1.0.0",
@@ -345,6 +345,24 @@
             "db_version": "20261105112800",
             "db_breaking": false,
             "notes_url": "https://gitee.com/jeay/doye-php-eshop2026/blob/main/CHANGELOG.md#119"
+        },
+        {
+            "from": "1.1.9",
+            "to": "1.1.10",
+            "asset": "delta-1.1.9-to-1.1.10.zip",
+            "asset_size": 20303,
+            "asset_sha256": "df2908ac29d1a242a44cbd4db2e384629941a6290adfe3b77dbf6e811b4137e4",
+            "ops_asset": "delta-1.1.9-to-1.1.10.json",
+            "ops_sha256": "796e0a355235902409cea0112929f382f9a6b1ae792cd4cd1aee78605b28fefe",
+            "ops_count": 3,
+            "delta_bytes": 1090,
+            "need_vendor": false,
+            "vendor_asset": null,
+            "vendor_sha256": null,
+            "vendor_size": 0,
+            "db_version": "20261105112800",
+            "db_breaking": false,
+            "notes_url": "https://gitee.com/jeay/doye-php-eshop2026/blob/main/CHANGELOG.md#1110"
         }
     ]
 }

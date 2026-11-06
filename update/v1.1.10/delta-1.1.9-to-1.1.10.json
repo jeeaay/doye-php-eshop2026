@@ -1,0 +1,31 @@
+{
+    "schema": 1,
+    "from": "1.1.9",
+    "to": "1.1.10",
+    "php_min": "8.0.0",
+    "db_version": "20261105112800",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "e168a7d902f2a1abfe086ffa784ebf558a2fab2e66c1f2011fc5725a903cc733",
+            "after": "90bc5628dc7c982a7482b3747c53132d2efa2d889eb554d5086592e69e46906d",
+            "size": 25519
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/template/index.html",
+            "before": "db986c82aaaa38a083bbb1f63c4ba9f294db355600b7c1402d10098b29ddc3c6",
+            "after": "54d2a4dc67573dc0b949b9ef6881998fb089ad4e57f59be771354fdc13f6fbe0",
+            "size": 14146
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/template_translate/index.html",
+            "before": "16bae2297d2869899e880fc195bb2077caa49320f2a09a96aad5036ef7285396",
+            "after": "a4097b551b1fb8c19a17dfbf777eaf0088f01f84ddfd8e969ba9db4dc5594945",
+            "size": 16581
+        }
+    ]
+}
