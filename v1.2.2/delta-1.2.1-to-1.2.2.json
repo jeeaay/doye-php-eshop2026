@@ -1,0 +1,38 @@
+{
+    "schema": 1,
+    "from": "1.2.1",
+    "to": "1.2.2",
+    "php_min": "8.0.0",
+    "db_version": "20261106160000",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "0cf2e9bc97fe39f1db868aae08381ed70482037b7f5c8a64053181c3c98494d2",
+            "after": "8ac0fbff121da77ed4f6576b00a6e7d2d8b401a6f4ed9fb8ec7d058e258b8d20",
+            "size": 27396
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/account-orders.html",
+            "before": "b5df794fed4b871308974a07f8c1f8bec58c7f5e902e21ea3da3bbc20264297c",
+            "after": "93b3510892d9373987e3c808eb3c9561b6b61611114333b38a190833df2aa360",
+            "size": 4669
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/account_order_detail.html",
+            "before": "d533e5eb1d1749e63b8a52d845b33dfdc8a7920d54afa4522b275a14a72dd81b",
+            "after": "404db660b6631c6e71fa47c1dba80e16ff2d77afb43def0d27c5bf60c7a57bf0",
+            "size": 4244
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/page.html",
+            "before": "4f54cf7b67aa5d84ba3b4d62548b1132f3ed274aed174d8f7d6da37fd6e04224",
+            "after": "62d13ed06aa00c7d3ed862eac9a221f989b5bf8dfabd01560dff2822a27b71d4",
+            "size": 1464
+        }
+    ]
+}
