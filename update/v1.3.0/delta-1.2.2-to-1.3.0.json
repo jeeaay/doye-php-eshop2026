@@ -1,0 +1,647 @@
+{
+    "schema": 1,
+    "from": "1.2.2",
+    "to": "1.3.0",
+    "php_min": "8.0.0",
+    "db_version": "20261116182900",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "8ac0fbff121da77ed4f6576b00a6e7d2d8b401a6f4ed9fb8ec7d058e258b8d20",
+            "after": "ed00c27da9a6c4426c66e8be388d355ecb0c93782aa56cb7dd83296deceadc2d",
+            "size": 29769
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Aftersales.php",
+            "before": "3b70465042ca338496a7d8e218cfb60512689474a6ff63f72e3bf44ea690b9eb",
+            "after": "afe797a44097fad142f51ddbe16a2b402f970eda66e2095b78b0579beaefa75b",
+            "size": 4596
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Coupons.php",
+            "before": "6dcd2e0c6ebe95ac6e4c603abcddd57499b0dda8400f167790934d4ca1bc8a7f",
+            "after": "61e09cd6995d9592aeec154dd3652d8ead3732c9076b451de1bbc3ef8b3a766e",
+            "size": 6180
+        },
+        {
+            "op": "add",
+            "path": "app/admin/controller/Marketing.php",
+            "before": null,
+            "after": "b9f6d81c0ba48903677dd69a41d67fb329e1f7532644a32cf68fb0775e56d3df",
+            "size": 7926
+        },
+        {
+            "op": "add",
+            "path": "app/admin/controller/MarketingGrant.php",
+            "before": null,
+            "after": "c6bf0fe84374f6693d9fcc2e9105bc59e36a60e826cb710355c387494e18d628",
+            "size": 8212
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/route/admin.php",
+            "before": "880861c7898d99539237dc3ee3e128d4939ad73a1daed21fe06534e04718b508",
+            "after": "9cca521559918d527c02186db974d172d5a634e6d74d5b9be6f7639e4847ac78",
+            "size": 12103
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/aftersales/index.html",
+            "before": "097316664ed513417c40f41b1bfc20292aee778ac61205055ec62c91a0f82e57",
+            "after": "4d2fc00b3418ad3b635490bbf0dea28ed80de1b1379c6b332d528ab2e2dcba3a",
+            "size": 10008
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/coupons/form.html",
+            "before": "fa6992ce68500295e9834e33711dd5412ea072297074ef7d2e8ae08b73280ff1",
+            "after": "ce5115bf3d9fe9a9a5afcfd0538bc8b8691c95ec5196c90a8ec0c07f697e6190",
+            "size": 14974
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/coupons/index.html",
+            "before": "048b8f65221dae671057375040c9544a662f5098a161e70581f4a35136743d10",
+            "after": "5144d0101969ed0559d17901274d27e17248cd4a9caeca01f98f08179dd80122",
+            "size": 7964
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/marketing/form.html",
+            "before": null,
+            "after": "94da683d595b17bb2d5e56eee138853b322b2e7ab25fe972d2bf48c82274c89c",
+            "size": 18595
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/marketing/index.html",
+            "before": null,
+            "after": "ec494369efcc289a7000453dcc5fa2280c72af691dfd2b95493eff4a3dd095d4",
+            "size": 7602
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/marketing/logs.html",
+            "before": null,
+            "after": "a32711c7ea0102b57c8b855d1c469ef0891fbb65f7d0ef497448b15833bfcd65",
+            "size": 5265
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/marketing_grant/detail.html",
+            "before": null,
+            "after": "16896bf8b5016a02ce75a324bff8d9422176a7156d732484830b0cabdcd4e4a9",
+            "size": 6316
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/marketing_grant/form.html",
+            "before": null,
+            "after": "a6ec7d321d27ed6ec3740b53dce1341fd74f32e13013437892cba37c4a2c1608",
+            "size": 10050
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/marketing_grant/index.html",
+            "before": null,
+            "after": "e1411e21e1dde88f7f10085e2e20455e95e8f570359916564ddd5c890d599b2b",
+            "size": 8581
+        },
+        {
+            "op": "add",
+            "path": "app/adminapi/controller/Aftersale.php",
+            "before": null,
+            "after": "4144b178cc4c53d4e14567c754b01ecd6f24772809793a2574c77e1a1c4c0e00",
+            "size": 707
+        },
+        {
+            "op": "modify",
+            "path": "app/adminapi/controller/Coupon.php",
+            "before": "5eef6ad652fb781f813a1de7005122dc1fcd2e610b26d9f4b5263ed0d8c13505",
+            "after": "b2b8a7540e9b48a515e5e920862bcd72f97cdfe09f10be7938c72263ba0c5a4b",
+            "size": 3102
+        },
+        {
+            "op": "add",
+            "path": "app/adminapi/controller/Marketing.php",
+            "before": null,
+            "after": "f12c64ae3eeea862353179c9375a45a9ec532789413ab252ad28fc7bdb833502",
+            "size": 4202
+        },
+        {
+            "op": "add",
+            "path": "app/adminapi/controller/MarketingGrant.php",
+            "before": null,
+            "after": "999b8cea763e5b0018d85e284beeffe9052237f7bfa0cb48e9d4641f3cbaea83",
+            "size": 4684
+        },
+        {
+            "op": "modify",
+            "path": "app/adminapi/route/adminapi.php",
+            "before": "4fc32dc3c414f3e5590b035c798b88c8779914d0b9370c4fcb1a9d22d5da4436",
+            "after": "aff361bd61364056cca739e6123820bf14c3b5837d28f19bfb753157996dcb93",
+            "size": 9064
+        },
+        {
+            "op": "modify",
+            "path": "app/api/controller/Coupon.php",
+            "before": "b662943fb1e5ab31d8e49bb6bfd4ba4b6eb027e9f3bb5034f1b5fde2dfd59f0c",
+            "after": "d2f29555abdf4acd0628a8eefb04b0df65069f1012feb0b65c89d1c037e87a50",
+            "size": 5316
+        },
+        {
+            "op": "add",
+            "path": "app/api/controller/Marketing.php",
+            "before": null,
+            "after": "d668a9890c7bdce20b11161ee3c985881b9822ef302980357cdf644e0e8cffdf",
+            "size": 907
+        },
+        {
+            "op": "modify",
+            "path": "app/api/controller/Order.php",
+            "before": "e1e3030cab6efac162bc4722843cdd4c0f2918d295a918993601af655504873a",
+            "after": "e014d5783ed4550277d3bae70ed8ad3fda725371dd527c1c6d460122fae758cd",
+            "size": 12275
+        },
+        {
+            "op": "modify",
+            "path": "app/api/route/api.php",
+            "before": "ae23021281b365dbbbe5349adfd3bd60577322d1ef7adea3535fc09c192a4764",
+            "after": "d15cba52af1ae6adf9c0934ffaa42a06cb19c4be334d6bdcb11c2a83d3f581da",
+            "size": 2719
+        },
+        {
+            "op": "modify",
+            "path": "app/common/command/DelayConsume.php",
+            "before": "722c14b8b2409d3f4becb64b7a2460df477d83ab17672e18f95959b1f1dfe2f7",
+            "after": "efc53685d0dd0a1793e5a0cd888b54ef43f6345ddfe8c3b0c658d7844475c95a",
+            "size": 2064
+        },
+        {
+            "op": "add",
+            "path": "app/common/command/MarketingGrant.php",
+            "before": null,
+            "after": "13694b36b11ba5919fec79ddc16066871a3bc8a8d244a4e8881eb54573ad68f5",
+            "size": 3062
+        },
+        {
+            "op": "add",
+            "path": "app/common/command/MarketingRemind.php",
+            "before": null,
+            "after": "fcf6758201af04c010238a2c0e5a69a2d92c3c8ebb84b30c8b5af1261bf9cc30",
+            "size": 1346
+        },
+        {
+            "op": "add",
+            "path": "app/common/lib/MailTemplate.php",
+            "before": null,
+            "after": "70763a9424df1314cbbde9ebf9cc94020b8014e4d91bb9f844cbfdfe2b4ff62f",
+            "size": 6646
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/Mailer.php",
+            "before": "63c640350273d3e4eac0d0d4148f1c1df2dfe44bf6b8b48890b421e31c7a0c97",
+            "after": "57b21233098220946e3017091d04240f2a10a7ae7ab9a4f0630271e344b933e9",
+            "size": 9552
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/SiteAuth.php",
+            "before": "ceaa00316b8269daca39dcce5e19122878d5d9a3183b5bc109ee1a376ba7b4d4",
+            "after": "75de8520a7db1062021b621a75c0ff234a14a31507d6f07883bed4fff2939a56",
+            "size": 6375
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/payment/WechatPayGateway.php",
+            "before": "37fb899f49f83856c05953ef9c99e26b625e57ff40a40ff1bad4104963a758d2",
+            "after": "50e792845d47cc57dd63dda355563807760e961831135da31806c3357348f94b",
+            "size": 10122
+        },
+        {
+            "op": "modify",
+            "path": "app/common/model/Coupon.php",
+            "before": "76e5b418c52b5a41ccd5671617ebb80201878d94e81466685d5397840c800cb1",
+            "after": "e1d8ec6f4fc0d202d28fe08aa24608f31582e30bce0701f3241bfa557e43d69f",
+            "size": 2825
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/CouponRestoreLog.php",
+            "before": null,
+            "after": "8c4857ec3d715a1486fe022099b2a918da2321fe14ae3b167ede31da39c751a4",
+            "size": 1148
+        },
+        {
+            "op": "modify",
+            "path": "app/common/model/CouponUser.php",
+            "before": "ac542190057805ce6f4089e1bc1f1445e11e92a1cbe03340538deb8b14b41941",
+            "after": "99a0be86ea0facec831c2115afaff0552ac8d7c8c63ad1d828932915bc3c1cae",
+            "size": 735
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/MarketingGrant.php",
+            "before": null,
+            "after": "019d659a3ae484db42cc5569e47a10e53afa8bdf20d96f807c5817be729e686f",
+            "size": 3097
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/MarketingGrantLog.php",
+            "before": null,
+            "after": "f240c41cbe028e7a192b80f88da77ffbb79937b96a9812c6ee26b57d144cee40",
+            "size": 2576
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/MarketingNotifyLog.php",
+            "before": null,
+            "after": "ac6378d5e581335c7cef8a7e394c50c366d24f71bfa796a39889e8f77bdcf6a8",
+            "size": 2044
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/MarketingRule.php",
+            "before": null,
+            "after": "28fb93a23e423b3013e80b3be7c37d64e399c94bd2740a9407e31fd42d7caac4",
+            "size": 4307
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/MarketingRuleLog.php",
+            "before": null,
+            "after": "bd1c21d5c1d5aa7c6a02dcad77fc6865e100069576f43afa5d2285d6b2a39c76",
+            "size": 3039
+        },
+        {
+            "op": "modify",
+            "path": "app/common/model/OrderPay.php",
+            "before": "36c5b45780b050254c5a93ff0d61337ca8319ac599e518d1a862a012b19d7b87",
+            "after": "59b15184c09fa11363680cc4a635a4799475ed4ddf2b405e6a9cdd8db0ab647e",
+            "size": 482
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/RefundLog.php",
+            "before": null,
+            "after": "72313f18e8e94409f4a1935f2fc6a3c4a838fdbd7d455e28bd0ceb4a2e43ad0c",
+            "size": 1448
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/SettlementDeduction.php",
+            "before": null,
+            "after": "f970072480e5802d8b176c0c798a012c31bfb01b5cbd8419d3f921d1a377cb4c",
+            "size": 471
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/AdminCrudService.php",
+            "before": "63ece7d8267777588fa2eae3fa95b8d6fe3aca439d2e086b9cc158a635275255",
+            "after": "f50b0f7d591bbedeef4ea8b6464580ae87be6fd245ee895d8aae4cbe1e94fcbd",
+            "size": 58253
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/AftersaleService.php",
+            "before": "1e6f8e9763b52cd5bac48189f3bee9927a9b858a0026ef4d66064acffaf5a94f",
+            "after": "bcb42bd446447e38f78be229bbe8996dde6cc0742f2b35e47def484f03f9297e",
+            "size": 5106
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/CouponService.php",
+            "before": "b943b6c643b99e1a885ee70d21f7f7f12502f93b68f2fa0ed613a80b834cf34e",
+            "after": "4f4910b41c0b213aed8062b6ff808362c20e0e7548f6eae9290fc4d96cb272f8",
+            "size": 69233
+        },
+        {
+            "op": "add",
+            "path": "app/common/service/MarketingGrantService.php",
+            "before": null,
+            "after": "f3a017fa17f7e7e91c51a4e7d12f84c33d6c6f2cfd00af7a20f6116bbb94ebca",
+            "size": 42129
+        },
+        {
+            "op": "add",
+            "path": "app/common/service/MarketingService.php",
+            "before": null,
+            "after": "232312ba764dc0f1ce0d79cbdef8e1b5840576415d9a68f8eafca0aff37032db",
+            "size": 55764
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/OrderService.php",
+            "before": "075554e9fcbf7c54deb5d6a03c3867fcde1f7a3889064f0ffddbd36723be076a",
+            "after": "43fca3865ac34cc6b2ad0e25837e914ff11143e4b55c45b65edbfb97d7142633",
+            "size": 19523
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/PaymentService.php",
+            "before": "df06f0e556f58a7207c06bd5f8992f473cc45adc13d1dda97e91a3d450ea2143",
+            "after": "a15932a2d00eaee9e0a3ff9070bac9707093ca283f376f84036712909694bb60",
+            "size": 12397
+        },
+        {
+            "op": "add",
+            "path": "app/common/service/RefundService.php",
+            "before": null,
+            "after": "042e83fde225e40d1dd7c150d8d2c4df733caa1bcb316858ff48be8bc545b3b8",
+            "size": 14744
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/SettlementService.php",
+            "before": "31b6cbcb3f9564dacce10f9171a6e729ff8287072e12a56442381f50c4928884",
+            "after": "4b2832706533bbf7fe225df7e8b227cef77f92f4383f7db41eba4b0452225c42",
+            "size": 3913
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/UserService.php",
+            "before": "c0f3b1166ec2a794a11eb0a955d19a06b9af25f6fee18b858a73766761ddc2a8",
+            "after": "48344adb1dd9a88ab201a5bb8870c6301c17d8332d034a8bc4fee3db07208403",
+            "size": 2904
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Account.php",
+            "before": "447edb8a974f484925751d8684566a655b60e1cb956648deaf3aada44ae087d7",
+            "after": "b9f7f62f470b01dddbf4f77cf10f85f46a90e86f4a2bfdaec6780576c7effec6",
+            "size": 1720
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Index.php",
+            "before": "6e84a151c66d0d8cce57369beb61e809afc9aff0c1dd79ad401ebded8ef7786b",
+            "after": "f873e0521fd5d459c4be437d5ae0f1aee3ec4b3b89eb5cdb9a7d67db011154c4",
+            "size": 3050
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Product.php",
+            "before": "a82b05531b7e99f7d9e70e0d5fdfeb02d8ae41048ff4541a1d75f5a62daa1430",
+            "after": "e3bc38496cc2135549c9846efc73c649961d4534c67d40bfd6545b7f4e145d74",
+            "size": 4801
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/en/site.php",
+            "before": "edb68ca580e73fdeadc8a6f942b9616beccd1f2d6cd49ca81e8593f5bc21261d",
+            "after": "b525eaa068afbdcebed251d1bc489de7516541e6ce4f51ed57d42cef3e4fa6a2",
+            "size": 5481
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/zh/site.php",
+            "before": "ec14a00e2deadd73c0ec74d120bf1e19222d295a14b6986c511c9f0d726f0c26",
+            "after": "0d93d26759d78941adbb6207b1c7a03040e9ed7941a5b8eb983e2132313a7752",
+            "size": 4162
+        },
+        {
+            "op": "add",
+            "path": "app/view/inc/flash-banner.html",
+            "before": null,
+            "after": "fd8855df5b8228455e86fe3b751f3e59b5fe16a8f41d1279f8c7da7cb5c874a5",
+            "size": 980
+        },
+        {
+            "op": "modify",
+            "path": "app/view/site/layout/base.html",
+            "before": "27ec8defa7157e0d2bab7e0b7c751fff697fe797a08c93225534a9c769b8aaf2",
+            "after": "21b995010532cd80d0b6d3e49f66da255c7c829b600752b7c3ef903c1d884c5c",
+            "size": 21151
+        },
+        {
+            "op": "modify",
+            "path": "config/admin_menu.php",
+            "before": "267bfd59955c12ca5d93deb2441d7a0b105533ff40579807f7a867875e6ddcdb",
+            "after": "f12ed7487de1bf6bf9749ec784e5c3eba308d0aa51733181a965337526b0907d",
+            "size": 5231
+        },
+        {
+            "op": "modify",
+            "path": "config/console.php",
+            "before": "557697ac3f451fa40667c8cbf15643682322d465faebf78e83f93fc949885745",
+            "after": "9e512e9e29b5f412308e1add18d91ff0a9156ba456e386f276592ee59f956dd6",
+            "size": 2055
+        },
+        {
+            "op": "modify",
+            "path": "config/site.php",
+            "before": "cef826c94fe678317bc9e7767e3e4c89b988d4357573fc2a9ea5045449da91d5",
+            "after": "c279c7f5b37c6a81004e7605961f8d3f8eb798bd12e31472b3a0d56a51bc9e47",
+            "size": 4604
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000042_add_coupon_tier_and_auto_apply.php",
+            "before": null,
+            "after": "a7705275e69c98265c9893918e5c0e41ac6e0053b6e967ee524fa1a4c5a8dd77",
+            "size": 1757
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000043_add_order_pay_discount_lines.php",
+            "before": null,
+            "after": "6796e07d8f05d2d3aefde37da689365eccf2b963dba66d795ca24fde7410356a",
+            "size": 753
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000044_create_marketing_rule.php",
+            "before": null,
+            "after": "a88d632208337236d2e3a6a8b013bf85f8611b7782a83dc8a22dc51a25049db4",
+            "size": 7190
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000045_add_coupon_expire_at.php",
+            "before": null,
+            "after": "a9ddb6d4d45e93cf0cdd229f5a61cde92a10df9ee8c7c8247e76338e98b934d5",
+            "size": 2075
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000046_add_coupon_merchant_id.php",
+            "before": null,
+            "after": "c4c4ad2902f790b4b2b57ae3e0d111915514d57629a71b40807b0d8b4e6e1930",
+            "size": 1512
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000047_create_marketing_grant.php",
+            "before": null,
+            "after": "e53bd70c84e94b3a5b430adaf9f0296e5ebfdd40865eea671ed2ed9936130c93",
+            "size": 7571
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000048_create_refund_log.php",
+            "before": null,
+            "after": "3431334c956ab2c9a46083bb90139508d66c1aa6b280f25ad88b3bcf651c528f",
+            "size": 4431
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000049_create_coupon_restore_log.php",
+            "before": null,
+            "after": "0ff53e472e55d3d489e12a7842a18b60a27c276e08c44aa1c34f38e5ac82c073",
+            "size": 2075
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "22d186df18cc5a6e314f320dcd6e5f8b1cc5c135aeaced622d8f02690c23bfee",
+            "after": "144472f6646849637e0de9d900e4d2bc0b4ff033f630246264e0e36733ac47a7",
+            "size": 40848
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "6835841f60dda26f44b804a98acbb8c73ef8ed74f89cd1e6abfc7012899fab83",
+            "after": "1c9f722341e10b52c82cf010ce693cb2249a5361b288e902d95a10e889c3a6e3",
+            "size": 70496
+        },
+        {
+            "op": "add",
+            "path": "public/almi2026/css/mobile.css",
+            "before": null,
+            "after": "413b2b85cefd34b543809255aedb3ba77339600e50113682b33ecd0ebcf089bf",
+            "size": 8490
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/site-addons.css",
+            "before": "8d273d908300498110c0b4873edd48462e00dac313c3d16e53299738159b65e8",
+            "after": "f3eccb4c8fc3071ad8f6c5e7e7856205a972cdad9f8ca8115e3c1ff2cef99cd8",
+            "size": 3890
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/js/cart.js",
+            "before": "fa97724603a7ccbe5aa525f70a5aca50a8287924961290659ed53a5c621058fb",
+            "after": "3d5c7799c698e225f22872576880efa0c26c8fecdbf16e9e56384180b1a3d4dc",
+            "size": 7640
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/js/cookie-banner.js",
+            "before": "93ea256978012a5c0cd8307c3aa21656dfbe102fb20ce3f0545ca81f0cedc412",
+            "after": "d648d9bc08ce72abfbfbe4266179352f46336b4e0f7573f33dfad696d7796538",
+            "size": 1889
+        },
+        {
+            "op": "modify",
+            "path": "route/app.php",
+            "before": "f7ade7dc166345132202737cc8871a951d3a661b5612339ff0ccffe5f22177d3",
+            "after": "ff3675774282fdbc397dc396bc886ec26f76350a95419c6a67868f836c24751b",
+            "size": 3405
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/account-addresses.html",
+            "before": "b389a428c35758b81e84c10757ec9848fa66331d7b079bd7463b732432619033",
+            "after": "7fce95f5a2bf1dfbf93ae1f16302f173f8c6f9cb98ced0be9b2b7b0e079116e6",
+            "size": 5983
+        },
+        {
+            "op": "add",
+            "path": "templates/almi2026/account-coupons.html",
+            "before": null,
+            "after": "de4ba3d4a427b5d979c7df319e49b9790ddae563b82cf5aa5c140f023174f338",
+            "size": 5806
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/account-orders.html",
+            "before": "93b3510892d9373987e3c808eb3c9561b6b61611114333b38a190833df2aa360",
+            "after": "ed32a6fba40e81800aedfbf8cc2cb42bbed485ed462292b2c56b2cfc41b3bee9",
+            "size": 4704
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/account-overview.html",
+            "before": "48288d4bb3cbe4662401cf104f28bee02b0e08b24e0e7998faebd2da19f6d0be",
+            "after": "1315c858ede94655044f584f0ae66fa9c6ece8dbcbf56254e2624beda614bf4b",
+            "size": 5726
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/account-rewards.html",
+            "before": "c6a79286fcc479bce23f14010bce7d338dd0e9e18db9b1ac3d344c678b879ca9",
+            "after": "d5376514d481a29c413de927398f25935505981ae456df2f016108cf52b1eded",
+            "size": 1504
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/account-wishlist.html",
+            "before": "c27f5060bea5890a4551a4e38afdead6ba5a0bd881dcc8f90070562c4de68383",
+            "after": "13ffffd347b11b47f9341c14ce09273977a3cd75b9dd0753035ce23753264c9f",
+            "size": 5665
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/account_order_detail.html",
+            "before": "404db660b6631c6e71fa47c1dba80e16ff2d77afb43def0d27c5bf60c7a57bf0",
+            "after": "5ff16740cb21890bdf64effaa023ea9814e95f8b9c6296eab8df2bfab65e2103",
+            "size": 5912
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/cart.html",
+            "before": "54c895c1bab2dcb38d20b63343a2b9544b25487053c8ef3b9ee88fd37ac11af3",
+            "after": "4ebdd85c201d6b1f054a2977697221825c683bccae6b1fbe59fa365e38add8f9",
+            "size": 11462
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/checkout.html",
+            "before": "29ac492aa222dac81c12c93e24cb1318380cb7fe133d1b3d7b0d57ada9438d49",
+            "after": "a25ce7e7d1ad991e15066c7b08ffa3bcadd6ad3170a5a5d99504e1e072abcb4d",
+            "size": 26091
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/index.html",
+            "before": "91dceac5246469b7b13ed51167b724e1a87d71ff2223a2cf21095c8d0c32ccab",
+            "after": "1006b6b5727a38f8ffc3f0b7ca99be84ea3f34b2263408ef67416a8e00bf2de0",
+            "size": 13882
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/layout/base.html",
+            "before": "971289c2eafe3ab907cb0bf2028c97fbc1e259d60afc9eebd11fd57da266d872",
+            "after": "bbcfaae804b62bd1439aa4156e2acdae5c723e7969b89d18dd4185af7d8c0889",
+            "size": 21154
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/order_success.html",
+            "before": "2b63e140d7492f8a46c841def2d3b3e7bd4b3e9d192f476882dcacfb99d82efc",
+            "after": "11aaaff0485e912d6a78bf9c01be257926d05e7ba4940c9372245327ccc68911",
+            "size": 2601
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/product.html",
+            "before": "d1322eda630332517a68cf6ab25086ef3299f4cc233861e113387c3d4cd3d10e",
+            "after": "52117274dbc72059d3f117fe1c26d3ca35c0f1ea335b88ecb188c1c3b3a485d0",
+            "size": 17146
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/products.html",
+            "before": "58985a2afd444f7ef229d5cb5b7e0644f927f2c3022cf3d5993426cf26680eae",
+            "after": "d60a5846af9f403bdc424d3d096533614d27f41b877a60a80512a26718bb84eb",
+            "size": 4778
+        }
+    ]
+}
