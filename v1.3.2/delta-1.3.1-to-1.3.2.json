@@ -1,0 +1,87 @@
+{
+    "schema": 1,
+    "from": "1.3.1",
+    "to": "1.3.2",
+    "php_min": "8.0.0",
+    "db_version": "20261117185300",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/common/service/UpdateService.php",
+            "before": "8c115475fbf7b238474dd2e4a6248cf25e306719e68977582f63ddcbe37e3bc2",
+            "after": "83aec6cff4f29b7b095afd35c3e0a821667bda55ad4f76560373ad759f87341a",
+            "size": 64439
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "cb48900fddee1034515f97582b17fc2e1af17bb59107cf595253dd3a66617366",
+            "after": "56c6d192dd333bfd4db59657934499aeeaa1d2f6aaf2ac8ac38483860664b3ec",
+            "size": 45117
+        },
+        {
+            "op": "modify",
+            "path": "docs/agent-guide.md",
+            "before": "817cacfa6d39b53541f5b7d875e6d8faabe7d2ba490cfa13048b7dd64f38b404",
+            "after": "b51d2a3a44b1337f6028e9edbca24e7e58f31a8457aa4b3a107cf14e91af47d6",
+            "size": 11081
+        },
+        {
+            "op": "modify",
+            "path": "docs/online-update.md",
+            "before": "42ac2141c95a7cf73079de0ac21348d75c8234559acb8df5a4dde140c3988779",
+            "after": "8c6cbc9d4d5876d32407274a0f804a8ffddc4004f071a1780fbdf0eb5e126c0e",
+            "size": 9631
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/admin-api.md",
+            "before": "cb48900fddee1034515f97582b17fc2e1af17bb59107cf595253dd3a66617366",
+            "after": "56c6d192dd333bfd4db59657934499aeeaa1d2f6aaf2ac8ac38483860664b3ec",
+            "size": 45117
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/agent-guide.md",
+            "before": "817cacfa6d39b53541f5b7d875e6d8faabe7d2ba490cfa13048b7dd64f38b404",
+            "after": "b51d2a3a44b1337f6028e9edbca24e7e58f31a8457aa4b3a107cf14e91af47d6",
+            "size": 11081
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/app.css",
+            "before": "908b3e8b6dea62d0243a73e230bb56f24fc2ddce32e8bd9cde155673926b9ab9",
+            "after": "5a71be16f260b0cd4173845ab5be69eb93c479d6b3007435e8c59765ebdb4b3d",
+            "size": 60545
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/homepage.css",
+            "before": "cc5af46fc5897a65b693da92c3aa6581dc42ab830fa5690a6bca2367eb269931",
+            "after": "2f18be67abadc32f630732a47ec0fc737c2733a94d526b54bd5c32ddb4bef91a",
+            "size": 8614
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/product-detail.css",
+            "before": "a994e60ac1a97531406204eeba5f5a55465732bd9abbc9e716866760070a3c5b",
+            "after": "686fbbfc9e483b4d7483d4f58af63ee5ab9b0e125fdc5adad14237ee6fa59159",
+            "size": 9621
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/product-detail.sass",
+            "before": "01bb6b1b129baa73c62e4243686b950e74f04f451cc55012022bd9a3816fda6f",
+            "after": "02367e073c93afeba3209596e0d7b451f3f8a64cdc7bd16f56154ac8b41f1855",
+            "size": 12057
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/site-addons.css",
+            "before": "e1baa4ffe4d39bc7561d11ec6fee105e6295f2a16cadd24811905dae81478f7f",
+            "after": "b3352e4a40fcc2bdc7eac923b39330165a491ff82cf0346b8f77618dc8f55bc1",
+            "size": 9136
+        }
+    ]
+}
