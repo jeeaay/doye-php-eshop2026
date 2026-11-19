@@ -1,0 +1,31 @@
+{
+    "schema": 1,
+    "from": "1.3.7",
+    "to": "1.3.8",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/admin/view/template/index.html",
+            "before": "19164de0c036332132209e2b17d34d55791c3439721277598092d1f1d649460f",
+            "after": "ddbfe41dd786d2394936d998388d3a432b8f3572c1ad7694b6618f17d68fea77",
+            "size": 11534
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TemplateManager.php",
+            "before": "b16b2b697adc23da1555dc02894291cfc3ccd8e258ec71964a05bc8a2fc49cbd",
+            "after": "210375cf7140b2f03a289518c6d6a0455eee151729d0f5f1d4fc2ed155283cbf",
+            "size": 15455
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TemplateTranslationService.php",
+            "before": "710f019666cbe76ce79c19e76b53d4d598231979efa220d88d8f9adf07fda94e",
+            "after": "4b969b32bfb5ec171067c0ed1988d51d89484ae8862f3516ae6a4eaca80dfa96",
+            "size": 10996
+        }
+    ]
+}
