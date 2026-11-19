@@ -1,0 +1,45 @@
+{
+    "schema": 1,
+    "from": "1.3.6",
+    "to": "1.3.7",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/app.css",
+            "before": "d12d93f81e181cc44b5fbf3684ef8093343f7f541ba9a8ae77405110026d211c",
+            "after": "8f7821d00fc1dcc0db2ed28bcd8ca698da0969e69a130bad5f85d63817734623",
+            "size": 62943
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/product-detail.css",
+            "before": "b4d57a775e91a54cd71dc69c826f81e5f77ee0f48be843ce2d71ca3a61c4fcdb",
+            "after": "aa486eb1e3b4e411c82848e6f04c3248f6e8cea1f45b87560cff323194680aea",
+            "size": 12021
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/product-detail.sass",
+            "before": "31737c65decb1fc106694a7e5035865e73a31f12aaccf0663f332a3959e164a6",
+            "after": "07c87901e314a5d96e9fc9120b9ebd3d5ea44dbb7d51d3b1039bb22f21273c44",
+            "size": 14556
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/img/arrow-right.svg",
+            "before": "9c3de6946cfa1efdc473d7daa50549dce80c94026bbc2d6a8725b8e17dce78a2",
+            "after": "d5931173554d33ff07d5b929f30edf220c10fa7fd69a453e639ce7c2e8483892",
+            "size": 219
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/product.html",
+            "before": "4cc65e75c253ab39bfeb25cf32591ce25d1b6d3a6e6810727de94cb660ed4e2d",
+            "after": "b454e32193a79f2a2588e3cb15e0d265d1bd43e755960e69f8479eb2e37bf7ae",
+            "size": 20848
+        }
+    ]
+}
