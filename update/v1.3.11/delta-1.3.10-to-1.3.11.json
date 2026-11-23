@@ -1,0 +1,31 @@
+{
+    "schema": 1,
+    "from": "1.3.10",
+    "to": "1.3.11",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/common/lib/translation/OpenAiCompatibleProvider.php",
+            "before": "861d9d26f1571c8fde0ad08dbd8162ddf00d449543ac0c0fd43fcdb2b5581531",
+            "after": "5719aad43933380dac6b502c9ba5c46d4b994827b933fecba9d125ddaede3069",
+            "size": 10147
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TemplateTranslationService.php",
+            "before": "cc4f38d23ad742cf1078bda8eb3a49f2fb5fb5d56f6150b36e4b94ffeb46555a",
+            "after": "288b1676b6b37e86d6d10e2a583faa9d8456182a1a886d7a5721bd64684b9557",
+            "size": 24268
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TranslationJobService.php",
+            "before": "ee3f7fde9f629aa7c274d0ec0e282ef0dbed4402ae35faab8e5c729a888fe3db",
+            "after": "27998f11776043e2fa153047d7d8a0baec5e4cf901137c94c1fdbefbade6becb",
+            "size": 20611
+        }
+    ]
+}
