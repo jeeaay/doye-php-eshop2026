@@ -1,0 +1,59 @@
+{
+    "schema": 1,
+    "from": "1.3.9",
+    "to": "1.3.10",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/admin/view/template_translate/index.html",
+            "before": "0cff658201c8248d13988b4338495e85fc167d02e7224b99ea9aebe926ef92b6",
+            "after": "0e6258ce2f268032a43210311cc8c3e0b39a0fedc8e7a030a37b1f0524ab8172",
+            "size": 38506
+        },
+        {
+            "op": "modify",
+            "path": "app/common/command/TranslateWork.php",
+            "before": "624c81b10bec923bc50eef119a49bf7966968e72974dec6d3815bbe316cbc30b",
+            "after": "7f69c4652f6b6c8a4c73b9f0945fcda06daee262fb59eeac7de5b76757f798de",
+            "size": 6323
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/translation/TranslationQueue.php",
+            "before": "9f17b50597e4af2058ddd209c42357e7732de77e47faf42a29ab8d670e74b4bc",
+            "after": "505dba40f828858d27bea6f34c8e8d762ee1b2d95e32081859a0b592ee6dca01",
+            "size": 6754
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TemplateTranslationService.php",
+            "before": "5012b9834839c5419d99e491a9d4382d7460c134601a5ddae4bbad113efbb387",
+            "after": "cc4f38d23ad742cf1078bda8eb3a49f2fb5fb5d56f6150b36e4b94ffeb46555a",
+            "size": 24199
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "d69af6dafd7c3f44e78c976c994e3e62228636bef273b92124386a9eb04601a9",
+            "after": "d3e257fcbb4c47e05ec51b4bf455e19979f60c12ef9217bc78fa7e3339a184d0",
+            "size": 55577
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/admin-api.md",
+            "before": "054743bed16750a3866b5761f485a7fc4959ffe6593ed9a56c1cc3075379475a",
+            "after": "d3e257fcbb4c47e05ec51b4bf455e19979f60c12ef9217bc78fa7e3339a184d0",
+            "size": 55577
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "27a0f2513c07d3c2455d55372bc29d75f0576671271e0ddfa47bdcf1b33e7974",
+            "after": "70bd71f960eeb8255fd9ca89eeb649a88a5e2dedd4c1c75eabdc82deea332926",
+            "size": 90357
+        }
+    ]
+}
