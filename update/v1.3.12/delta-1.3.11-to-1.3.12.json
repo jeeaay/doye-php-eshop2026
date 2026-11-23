@@ -1,0 +1,73 @@
+{
+    "schema": 1,
+    "from": "1.3.11",
+    "to": "1.3.12",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/admin/controller/TemplateTranslate.php",
+            "before": "18725a8c8fca44da3f090434f0837a808c472069289c7374e8d206ebefb7d56e",
+            "after": "47c9c96cd0b87af868d639f43d83720cb755ac1abdd77f07fa25dd842ccd3dbe",
+            "size": 8486
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/route/admin.php",
+            "before": "830ee8897e646adf74be9198d98c186fbb637b9f54bafa0302b17cd7a861b6d6",
+            "after": "baafa57ae1b1451cb306ad182d997ffbc51307f5753d1e3c6492a058b035b008",
+            "size": 12873
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/template_translate/index.html",
+            "before": "0e6258ce2f268032a43210311cc8c3e0b39a0fedc8e7a030a37b1f0524ab8172",
+            "after": "0e178ea71629cc0744eacbcc6f54159472b301277b4a68fe45e468365161a19d",
+            "size": 40609
+        },
+        {
+            "op": "modify",
+            "path": "app/adminapi/controller/TemplateTranslation.php",
+            "before": "476816c15261260d6326f25c40eebcc797b1ebdfeca812433a5e1608e7b1c9b4",
+            "after": "60c97c33cbd75364967168e9c0da51b113acbd86a2a9ebd1105c17ab39dcc023",
+            "size": 5931
+        },
+        {
+            "op": "modify",
+            "path": "app/adminapi/route/adminapi.php",
+            "before": "9ff65c5ad2bec71bbcc1428c0155b8e062fba0f320aa24d481f1546dcc4a721f",
+            "after": "6df35ab9ae3b96ded8d0aeb883c0873b3a344c2a427bd66ddf6d83a4e30062c3",
+            "size": 10895
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TemplateTranslationService.php",
+            "before": "288b1676b6b37e86d6d10e2a583faa9d8456182a1a886d7a5721bd64684b9557",
+            "after": "34b584e7dbb9cf125de9d22540bfbd2533aa6481e8af890a220e5683002b84cf",
+            "size": 27603
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "d3e257fcbb4c47e05ec51b4bf455e19979f60c12ef9217bc78fa7e3339a184d0",
+            "after": "e2728e410a4d163b8e71bfb78f663e763fedd6b6398501ad8d2724d8a35d95f3",
+            "size": 56044
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/admin-api.md",
+            "before": "d3e257fcbb4c47e05ec51b4bf455e19979f60c12ef9217bc78fa7e3339a184d0",
+            "after": "e2728e410a4d163b8e71bfb78f663e763fedd6b6398501ad8d2724d8a35d95f3",
+            "size": 56044
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "70bd71f960eeb8255fd9ca89eeb649a88a5e2dedd4c1c75eabdc82deea332926",
+            "after": "c68eff8882af4f29359c6a344bf2d2a3f768280e4f1b1e14b2c91ed0e7e4af77",
+            "size": 92491
+        }
+    ]
+}
