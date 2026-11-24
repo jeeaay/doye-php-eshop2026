@@ -1,0 +1,24 @@
+{
+    "schema": 1,
+    "from": "1.3.14",
+    "to": "1.3.15",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/admin/view/payments/index.html",
+            "before": "32fa5f32b904ede4d4f4f7f26730bda0a25bb78f8d8695255a5494309c62824b",
+            "after": "9c6e4882bb9268d8fa99f24d5aac754cee879253607a284bc9aefde9327e9ecc",
+            "size": 14531
+        },
+        {
+            "op": "modify",
+            "path": "public/static/css/pages/payments-index.css",
+            "before": "020ec747cc9535cf95148240112b8332059c17194a795f9063839fe3ccbde89a",
+            "after": "1b324a93ba243df76fb0d2e57d43f8e3fd51acc91a9c75de069a9f05ab26b472",
+            "size": 4399
+        }
+    ]
+}
