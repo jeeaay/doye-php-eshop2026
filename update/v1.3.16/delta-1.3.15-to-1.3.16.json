@@ -1,0 +1,269 @@
+{
+    "schema": 1,
+    "from": "1.3.15",
+    "to": "1.3.16",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/admin/view/payments/index.html",
+            "before": "9c6e4882bb9268d8fa99f24d5aac754cee879253607a284bc9aefde9327e9ecc",
+            "after": "803a32a297e9deb7395fe3fea4f2e5216e22c33c0d3b2e42a89b8a1c5152abde",
+            "size": 14817
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/view/products/form.html",
+            "before": "59bbb2cb0eb5f2e61d01cd78931eb77cf83f6cf80b77798025096d0eb0c86f2d",
+            "after": "c70c04803ddc5a496ff3850a865f3684fa4a23f0bbfb94ee9159e53c434be724",
+            "size": 23970
+        },
+        {
+            "op": "add",
+            "path": "app/api/controller/Shipping.php",
+            "before": null,
+            "after": "007dd26115ee53e5a9367c90042a13c533fe7aa868fa9153f10cdbd62ea3834f",
+            "size": 2161
+        },
+        {
+            "op": "modify",
+            "path": "app/api/route/api.php",
+            "before": "843ce47490743771fb69c2becd8d2ec22962aa3c672e00439c7b1edb40b598bd",
+            "after": "9ba37214053f12e7f18c68846489e028f219023d5ff77a4647b855e2efd29f27",
+            "size": 4046
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/payment/PaymentChannelCatalog.php",
+            "before": "566a7c6507e5a800e1015bbe13b364d076a35534e94c31644f0ed2b7e234d1a5",
+            "after": "f46ee21405dfbfcb9bbdb2f6af3531cd0907b1a50be4e05fb1292fe64c1161e9",
+            "size": 10734
+        },
+        {
+            "op": "modify",
+            "path": "app/common/lib/payment/PaymentGatewayFactory.php",
+            "before": "0537f6b9b39123d66583698499f98070b31b401cd567faa0de2482a6267b1437",
+            "after": "001e0adcf1eda2cbd7539e66812fe83ac6270673a68743b5acad59ffaa0f8254",
+            "size": 6021
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/AdminCrudService.php",
+            "before": "5b011314bf5cd55831dfe06f23edd8b24862b2425e95c1e2f51b585cb97bfd05",
+            "after": "175f33404a0d68220dddaeefcbb40365bc6e97153c284f076ac2c6452dca8a9b",
+            "size": 65099
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/PaymentChannelService.php",
+            "before": "f3b1029158a82ad4d4a863c5e88996e46a43adeca850d89b0605c4233d9c2154",
+            "after": "a77c9d1173cc21892afa09691ed70ef839e3cac0e2c4af74452b55e12a962ce8",
+            "size": 5509
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/StorefrontService.php",
+            "before": "70a674e092d8b758b12914726415dc2ce78642daf2b189e69bc5ebd47d2a26d8",
+            "after": "2636aa726f18c3794626f5eaf772571b64b9808b12d7294ad32dc029d9c549f5",
+            "size": 24097
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Checkout.php",
+            "before": "7e0a1df2a964c1d73e94e231962ad8ad1449b7fc4d948ab79e25792447d1c6ee",
+            "after": "9e0a722a2cff5224a45798423a3a6ee34c4ff66619598abfb47aa2a9017ac725",
+            "size": 1341
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Product.php",
+            "before": "638e9d0afe67e7e8b86f580e1615dd0ad99321c890a1651b81f19b3db0b3eec5",
+            "after": "36b47cc251339c7b7396bfc59107152218ccfefe40357dda2f9c31ea3398112f",
+            "size": 9988
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ar/site.php",
+            "before": "ba713269c5050b2900373d4a8adc25bcfb73eb33559e4c969f24ae1c841e5db1",
+            "after": "77687beb79e43591de1a54d9dafd149e17e19f45c4cba1f217f6a71f0371bf67",
+            "size": 7859
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/de/site.php",
+            "before": "8991f55e56a40431daa028c0ac73f36ec6f99267e01fd7fb9f87115e98e2899f",
+            "after": "1385fb7e4f056d715459f84b7e75ee76ed30048979424e66303401d148594bb7",
+            "size": 6851
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/en/site.php",
+            "before": "45ac79bfacf11df920993e22cddef87c867ed5bb8544f26caea4b35513f086a4",
+            "after": "8e27c722180a1d5218ced98650f42c7aa3e5c7ea897ad23ffc76628028f2194a",
+            "size": 9724
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/es/site.php",
+            "before": "ccbd4c27a84676b73660e4fab671f19f9cddba48efcea6f96e4e0ffeb832416c",
+            "after": "b0cb4cc542bfc9a4593d3356897cc9cfda454fa629d53abc61a2eae314d2ce03",
+            "size": 6806
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/fr/site.php",
+            "before": "50dc94f026ecffb999697341b6859d3b49f772aff511adac4e0da2e708ce02f4",
+            "after": "9329ef021074712883c8dfd18ebf0c0529b17decc05f0d77a4f69ad4f0149740",
+            "size": 6905
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/it/site.php",
+            "before": "3894646b5172458bdfe723d6443d53350a06366b5cb9b6d244fc3a626ffb337a",
+            "after": "0658004b5d8263d28600444d8e624470cb889026ca26d9b1cffd8389b0373b2f",
+            "size": 6827
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ja/site.php",
+            "before": "09254d9bc20a34b35d4e7414d702232c66631936884122d6cac4ed8593dad7f0",
+            "after": "4a3a0aeaa90991c941bebaeef056248a5993d7bce0fb6ca6ca79389cf1a6ab5f",
+            "size": 7256
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/pt/site.php",
+            "before": "3230b9f6b5c5f3266b0666dd9868d00f50274efec0f84d1e8bff15894275a634",
+            "after": "7ae02b00ab67894bb4351784e2cfb4394beb8ecc6650306292f251eb19dcf146",
+            "size": 6798
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ru/site.php",
+            "before": "ce90db3b903b5ed7d8a980acae530d08c370d99cccc34c72d1ff5b76bd551026",
+            "after": "42d90a93a82cba33feb4a3c03facf43253819f8db4b49cb43f902da82c48c848",
+            "size": 8395
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/zh/site.php",
+            "before": "bd6fb558979caedceef23c568110a1c03dd7fff534f145aeeee21e32cb1aaa4a",
+            "after": "f6ba012a0b230a522c4404c167a030d1792e9a2d3424bab70e9c3bb06d226194",
+            "size": 8349
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000060_add_sku_original_price.php",
+            "before": null,
+            "after": "fb4c91776bbae86255f53f0ecf22eddba9b2a5c889e889a25ada666f920730aa",
+            "size": 899
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "6188d1fcabbce3e2e320c513ea8d796f540105bea2900b1df6480d050ebbf5c6",
+            "after": "d6e8a0aa3f516ef003122fb576f7072fb9ed1671a8ea0d3b5416ed9a713b3bd2",
+            "size": 57571
+        },
+        {
+            "op": "modify",
+            "path": "docs/api.md",
+            "before": "fa200c565202b75d5e430aaf7443fe1bd1a65b199f599cde2578b24aa397b506",
+            "after": "31a3c72dc29531dc852030f10fd08d379d66e26f3a309e8c49cf88ef526a228f",
+            "size": 47177
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "fbe7c99ab5c6f68e26191c73a8fb3d1dc15bab80e171b104ec5884d2007bd636",
+            "after": "870ec0b1d6daa0e3e3105ff800c4c0b01ce2598a970591b6a6e6d211af81d5d8",
+            "size": 93585
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/app.css",
+            "before": "353a2af7d90abcb60504525f09deadaac1ad4c8ef4a80d6f53234afea66ef90f",
+            "after": "d45cfe1d0e386305995e36b369c312d4acf3e1f9f52ffad0582c41014107d3c8",
+            "size": 66630
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/mobile.css",
+            "before": "1455d9ccc9da9e31faf8235b4d7b2fcb147aa56defc5d7cba0c5233e975c2b2d",
+            "after": "f1d7603c61ecb11e11a04671e894e99311cdec02238de23416a3b97db9da47f4",
+            "size": 14495
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/_checkout.sass",
+            "before": "5ac90904e414a17d5962674f7c8bb1d88fd6e52437e15903ed81769a75c756a2",
+            "after": "78c90966011d8bd884eaa1911f5882b1def03ec35e8bea1629d64588cd8de250",
+            "size": 8503
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/checkout.css",
+            "before": "c8ea863eed3d3122da5971f9648e6361b691d186d7db95e56de2ab636f5348c0",
+            "after": "f3ab1229bf4049513fb27939ef146f13b48c1fdd8035aaf5aae577e54633999a",
+            "size": 5523
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/product-detail.css",
+            "before": "43746fdecd3d38752f7ab57c41f9f0791ae35ab22b01780e978e22cedae95a90",
+            "after": "a22a17159e6c2830e142985f62673de3872a6b15e7c88ba8cbf559537c41b0c3",
+            "size": 18613
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/site-addons.css",
+            "before": "55ced5e17fad6842d7a419778b0a198dcbab5749c097f4d888273a9340ca25b3",
+            "after": "6eaf606ad64b104f1a6e26224252762fbdf3423cdb8d31bbd81e16fe6b64b4f7",
+            "size": 10936
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/js/site-pages.js",
+            "before": "703e07b7b9e62297f7e1e6092cf8273af605a49901a797f840ac73bc0f332302",
+            "after": "dc4a7a532f0aa02995fc99baaa4fe0fe240e8b206d34a3021cda6fa3b4333c67",
+            "size": 49418
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/js/store.js",
+            "before": "bfa8aa3ffcac85db40cd679137b270ee1618968c367d24cd022247b73047c3a2",
+            "after": "25859b890ded796b47c0022bb1f25a5a948f9498ccb0afc2478a777bb0efe294",
+            "size": 12882
+        },
+        {
+            "op": "modify",
+            "path": "public/static/css/pages/payments-index.css",
+            "before": "1b324a93ba243df76fb0d2e57d43f8e3fd51acc91a9c75de069a9f05ab26b472",
+            "after": "b534eab247285c26a3923340594ed6c30df6209a0c9b06aa8531fea100b092b3",
+            "size": 4566
+        },
+        {
+            "op": "modify",
+            "path": "public/static/js/product-editor.js",
+            "before": "28cb319ddda48e28ec59728e5fbd8b4bbdcd18da488461119a4b1283fdcedd4b",
+            "after": "19955f272aef110ccb21a46bc3a9f071fcc2bb57371b6aa23474804104537046",
+            "size": 31740
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/checkout.html",
+            "before": "fedee74509291ff2fa3a1464faff5be32faea1129d09311c65041d5dc925e51b",
+            "after": "76e62dde1943d0595289d1acb51b0ea2ac724cbbe7002ec23cc7cd27102d65e2",
+            "size": 25510
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/product.html",
+            "before": "388630ced8b5a7c2d44e13a1df5f2dc22f45832a0d28aae8b7fc6a11c6477957",
+            "after": "c14748babed16e1a20461b5f40e9a7bb5651c9efbad384569725525a7338e2a7",
+            "size": 31067
+        }
+    ]
+}
