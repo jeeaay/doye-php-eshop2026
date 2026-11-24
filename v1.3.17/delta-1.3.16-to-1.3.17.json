@@ -1,0 +1,31 @@
+{
+    "schema": 1,
+    "from": "1.3.16",
+    "to": "1.3.17",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/api/controller/User.php",
+            "before": "9123ef3c0e446fb1d8eba5bc51d3b83ae71340968692381a9a550b1a10313887",
+            "after": "1d78aac480e785f2c3970c9498a0016eb7c398041f09681413ac4a9ee5c6e9ef",
+            "size": 12416
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/account-addresses.html",
+            "before": "ec10d60d22feeb8e6dd0ee8a97bc2b2ea3f7d370697ba8b478a97a84b7add9c1",
+            "after": "96ae5f09321c3ceb76013ae52345f084d1a1ad128e4b7ebfa3bb6f2a2a37c458",
+            "size": 6727
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/checkout.html",
+            "before": "76e62dde1943d0595289d1acb51b0ea2ac724cbbe7002ec23cc7cd27102d65e2",
+            "after": "240181ea55d8daf5962414da5bf4a0a18ea7d8ad1e6a0d976fd678e8e0ef0306",
+            "size": 25814
+        }
+    ]
+}
