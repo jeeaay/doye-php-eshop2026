@@ -171,8 +171,8 @@
             "op": "add",
             "path": "database/migrations/000064_update_contact_email.php",
             "before": null,
-            "after": "e575dfbc96e0c1ce119006733d9f91d8b1a2672a9f00d7af39ab10ce902183bc",
-            "size": 2704
+            "after": "1e18e1a278ada0f2d0f5b1f5b122e7547ddb806de0253a3a847c1abf81adfcdf",
+            "size": 2703
         },
         {
             "op": "modify",
