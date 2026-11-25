@@ -1,0 +1,311 @@
+{
+    "schema": 1,
+    "from": "1.3.17",
+    "to": "1.3.18",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "CHANGELOG.md",
+            "before": "ed00c27da9a6c4426c66e8be388d355ecb0c93782aa56cb7dd83296deceadc2d",
+            "after": "00c18f8b0eed3509bf7db529853f38af5da87fcf1720540e1d207f1bfbd797b4",
+            "size": 32024
+        },
+        {
+            "op": "add",
+            "path": "app/admin/controller/TopicTemplates.php",
+            "before": null,
+            "after": "654d883b6aebcc8a571293079157ca0079042148fa1a19d3a71922c33ad246d4",
+            "size": 4810
+        },
+        {
+            "op": "add",
+            "path": "app/admin/controller/Topics.php",
+            "before": null,
+            "after": "6282afb8bb7945fd7b6baa8e80cdcf4da99b20ccff359b1097d932a1d75f731f",
+            "size": 10039
+        },
+        {
+            "op": "modify",
+            "path": "app/admin/route/admin.php",
+            "before": "baafa57ae1b1451cb306ad182d997ffbc51307f5753d1e3c6492a058b035b008",
+            "after": "68f7a3c76378b3699c2c89dccf66fcaf6393fc0ce347720fb226ea80bec506cf",
+            "size": 13837
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/topics/form.html",
+            "before": null,
+            "after": "e038b57a060dc3caa9d766b885edfed571287db3df5fd11ec962b26fc0a9d9ad",
+            "size": 22195
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/topics/index.html",
+            "before": null,
+            "after": "10eda914b77f17ed9b25290aca18d616d8a6371e618142dacb06c07fdd3fa52c",
+            "size": 6195
+        },
+        {
+            "op": "add",
+            "path": "app/admin/view/topics/templates.html",
+            "before": null,
+            "after": "7ca1d1ca3cb7ba667a9ced875aaf82792a4de3462e41e1857efae498bb5c3d94",
+            "size": 6703
+        },
+        {
+            "op": "add",
+            "path": "app/adminapi/controller/Topic.php",
+            "before": null,
+            "after": "3d37fda0d999d0b667b223e48388a044212bf6c2c24ad49a38c362d6b66b5304",
+            "size": 6300
+        },
+        {
+            "op": "add",
+            "path": "app/adminapi/controller/TopicTemplate.php",
+            "before": null,
+            "after": "bd10063626f3c61c8c6646f9570f508272bf2def89dac80d00bd7568ed2256b0",
+            "size": 2696
+        },
+        {
+            "op": "modify",
+            "path": "app/adminapi/route/adminapi.php",
+            "before": "6df35ab9ae3b96ded8d0aeb883c0873b3a344c2a427bd66ddf6d83a4e30062c3",
+            "after": "3b0d9db0878d57ad2b14bc0a8f0273d4ba1a23fd3b90f5d99e1c6deaded8d640",
+            "size": 12358
+        },
+        {
+            "op": "modify",
+            "path": "app/common.php",
+            "before": "354edad28ea435ffdc1c1bae9a6797e7d863fcee26517ad3a82fd90c4f2717ac",
+            "after": "ed9c1f0a7be0b8a9012d59f3347ea90fa812ba7ce6b170b46ad7d150ecf545cf",
+            "size": 12540
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/Topic.php",
+            "before": null,
+            "after": "607921dfed285cf37900ce9939303d356f406fedb88800af305d6b413ae49d29",
+            "size": 947
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/TopicProduct.php",
+            "before": null,
+            "after": "09a90824bebdf5eebb0658db785ea1e267eff4cae3aebef565596348fb940973",
+            "size": 299
+        },
+        {
+            "op": "add",
+            "path": "app/common/model/TopicTranslation.php",
+            "before": null,
+            "after": "a9b3cf32111478d0c9130b405d30a8333e3f93eae9862a4ca7d1d32c7f768a65",
+            "size": 459
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/CategoryRouteService.php",
+            "before": "3df5dc7e0cc945bddad35203d2a5e2f748c4e3013dcc3b3c3dc371a30347524c",
+            "after": "2a35be9d30d2275803c9251cc40cdd651dfb2e703bd72403add36aacf00ae6ec",
+            "size": 6149
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/MediaUploadService.php",
+            "before": "71f41d8a44fda1904c2f4d276f8cc7fb3b5797cc8d135d04fda32ee88dcb1ac4",
+            "after": "0392eba8fbabe00f05da4dd2fc4e699ab4a6c548c4621c40b515a766a1d50d8d",
+            "size": 31301
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/PageService.php",
+            "before": "0bc27458ee2fadd3123d815413fda2e23dd96d3a0726dec2d950f3f5f7a995d7",
+            "after": "b6ed4efd41ca5d67750c20e557a6b471750724e458e865fcf5ce381e97789e8f",
+            "size": 7868
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/ProductRouteService.php",
+            "before": "06f560c90c5bdf1086f6b9c349b933f0580dfcbbc938e539a9a0ae456f6c7f2f",
+            "after": "2f340643343aae150fb8a86082069f4556826c2e69ac668f66d1c1acbf515351",
+            "size": 8963
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/StorefrontService.php",
+            "before": "2636aa726f18c3794626f5eaf772571b64b9808b12d7294ad32dc029d9c549f5",
+            "after": "cb5d0df7d37fd61052e1fab0a76bb78815392a8f657a8cb13c4fca3018402887",
+            "size": 25380
+        },
+        {
+            "op": "add",
+            "path": "app/common/service/TopicService.php",
+            "before": null,
+            "after": "cf0cb4487cbcd58005f139f2b0a7a4fddef38211b941ba119e53b2f79c59ddb9",
+            "size": 19999
+        },
+        {
+            "op": "add",
+            "path": "app/common/service/TopicTemplateService.php",
+            "before": null,
+            "after": "1e0a89d2cf0f1ad95fe1f1b325b724472de0a71b63c28d15f0f3e6ada04ba9ef",
+            "size": 9580
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/TranslationService.php",
+            "before": "c32a1767eaace314c353d9cb20a6ebdba663868d687ae14587001dfa2e69940e",
+            "after": "c908210e863dd5e8d715437435fc49ef79f33e3621b23cac290fbdba2b5e9c31",
+            "size": 22346
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Page.php",
+            "before": "be4d376a0915827a51f86ddf320e31c08d62368fc56417de648c224cd5adbebb",
+            "after": "68dd4c062baac8a82f8c85ee3e3d6138cb61fd706237372994402483f4fd9845",
+            "size": 4871
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Sitemap.php",
+            "before": "d4ae4caf8f5c38079c4c825c393308e66ebb88804969ed989ba4cd82d98574bb",
+            "after": "beb16b796ac5f41df8620f5302019cb264c38838a226e61631bd76eb0b3ee748",
+            "size": 3504
+        },
+        {
+            "op": "add",
+            "path": "app/controller/Topic.php",
+            "before": null,
+            "after": "3ebdfbc9a61aa9a87f276918181df563eaaffe462ebfe25f710a04e37fc1d9b3",
+            "size": 2944
+        },
+        {
+            "op": "modify",
+            "path": "config/admin_menu.php",
+            "before": "6778d932402e5e91d1ef457cbc4a2a3a66033a296debb45c78ab31e537d1eea1",
+            "after": "2b7d54501890882e64d96c9661d12f24332cf21665b714334f0280a541a8987e",
+            "size": 5433
+        },
+        {
+            "op": "modify",
+            "path": "config/audit.php",
+            "before": "1723b21ce798d41007305ba6ed7cfaaab22e57b28657445c9eaed5e11afde106",
+            "after": "6e2c36c81494a108f299a81ad4afd3b2164c7468c74712b892bb939ea7558b13",
+            "size": 2948
+        },
+        {
+            "op": "modify",
+            "path": "config/media.php",
+            "before": "440e2329dc5f3fcbdc86601b4536ad4e78ec3c0ad40fa1019cfa8f2f1963b01b",
+            "after": "82040da806a8d65af830c6777870a9e44d8f25bf1b5a445c8679430cc32d3d93",
+            "size": 2639
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000061_create_topic.php",
+            "before": null,
+            "after": "b8490be0664a26f75c3f6e828e9d30fa90b48c96da446575f3bcdd28c71472c9",
+            "size": 2867
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000062_create_topic_product.php",
+            "before": null,
+            "after": "9577d337606e22eba6ee3a4ffdc31db1ea3ad3ae24ce2fdf5830c792fa8c99d8",
+            "size": 1438
+        },
+        {
+            "op": "add",
+            "path": "database/migrations/000063_create_topic_translation.php",
+            "before": null,
+            "after": "205b4c492d0955803ea91d9cc966781f6f75cf95712443714b2989f2d10b973a",
+            "size": 2711
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "d6e8a0aa3f516ef003122fb576f7072fb9ed1671a8ea0d3b5416ed9a713b3bd2",
+            "after": "d06809f6d1c9ccf7acf01cfd591fa1531737ac865b4ca6b99db021fb4767ddcb",
+            "size": 60586
+        },
+        {
+            "op": "add",
+            "path": "docs/topics.md",
+            "before": null,
+            "after": "7535d471be33e6ba87775566d7b2bdf78f87c176cf1a5e101ddcca054ca1bc2a",
+            "size": 6781
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/admin-api.md",
+            "before": "6188d1fcabbce3e2e320c513ea8d796f540105bea2900b1df6480d050ebbf5c6",
+            "after": "d06809f6d1c9ccf7acf01cfd591fa1531737ac865b4ca6b99db021fb4767ddcb",
+            "size": 60586
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "870ec0b1d6daa0e3e3105ff800c4c0b01ce2598a970591b6a6e6d211af81d5d8",
+            "after": "af183b6e47abd3cbbd2e2b3c9c5812ebb9779bad27f6fa2823340026774beebd",
+            "size": 101323
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/app.css",
+            "before": "d45cfe1d0e386305995e36b369c312d4acf3e1f9f52ffad0582c41014107d3c8",
+            "after": "90b4a53eb989bf065c41ca47bedaf06f59c8089bca112bcc848dab796aef9289",
+            "size": 66868
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/mobile.css",
+            "before": "f1d7603c61ecb11e11a04671e894e99311cdec02238de23416a3b97db9da47f4",
+            "after": "82cda19572f0edec0bade99b36e06fd6f1a6cc018cc0744aa8e47c8b0abd7ba6",
+            "size": 15299
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/product-detail.css",
+            "before": "a22a17159e6c2830e142985f62673de3872a6b15e7c88ba8cbf559537c41b0c3",
+            "after": "f97623dd145926d84f23d6a42344ffb2dca3d9b1c17cb99d3733d003e2e8acb6",
+            "size": 18851
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/product-detail.sass",
+            "before": "db7020e9b4d720929307d1db1b42caac807e2a63089f0ef4e671129b0b3d2bdb",
+            "after": "910fffb5669e4237a653818ecb32ca98cfa61ef95c07abb2fc77b7106ee4e385",
+            "size": 19121
+        },
+        {
+            "op": "add",
+            "path": "public/static/css/pages/topics.css",
+            "before": null,
+            "after": "e09ac90ecec0ff0d38b93b6a53c29cf59b17b409541e23b13925f78c622bb071",
+            "size": 4353
+        },
+        {
+            "op": "modify",
+            "path": "route/app.php",
+            "before": "4d5f907c31eeb4ab954fd2f03485952257c69a2c3f49b52c33a9c18ae07a4b49",
+            "after": "f6f0b8e6f9b6f0e388bed5f6500c906f68abaf13ca85897ce993c7bc364652ae",
+            "size": 3618
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/layout/base.html",
+            "before": "8a4b63132119376d365c5931fa07a94b5189a209a086de60d472fc6c13a9cd48",
+            "after": "acb2a200550e533ff1e5dd85ff09dc1af80a2bd7f94f4283acbea931b3eca704",
+            "size": 20764
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/product.html",
+            "before": "c14748babed16e1a20461b5f40e9a7bb5651c9efbad384569725525a7338e2a7",
+            "after": "06085cbcbb1ae0401c2ab65a01c0b001d08a2d831e08982926136f41265863c2",
+            "size": 31104
+        }
+    ]
+}
