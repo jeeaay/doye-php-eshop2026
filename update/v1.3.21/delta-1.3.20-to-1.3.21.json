@@ -1,0 +1,136 @@
+{
+    "schema": 1,
+    "from": "1.3.20",
+    "to": "1.3.21",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/api/controller/Shipping.php",
+            "before": "007dd26115ee53e5a9367c90042a13c533fe7aa868fa9153f10cdbd62ea3834f",
+            "after": "f2e8fbd9360b6b7b92cce3d53e6e586857390252cea1606fbf6157957e62c787",
+            "size": 2329
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/ShippingEtaService.php",
+            "before": "30c97356848721446f68b01ee275fc2244d4434bcfe424a392c647d58971e710",
+            "after": "218947adb68246ece6bf11425671db12526df7f5ed28d1e71f96d368f616c3e6",
+            "size": 11417
+        },
+        {
+            "op": "modify",
+            "path": "app/controller/Product.php",
+            "before": "36b47cc251339c7b7396bfc59107152218ccfefe40357dda2f9c31ea3398112f",
+            "after": "79b1ff1d4e09ba276cfc9c2c2d6a5a9758bdb1c6171aa517f5b5a3438f6246a4",
+            "size": 11119
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ar/site.php",
+            "before": "77687beb79e43591de1a54d9dafd149e17e19f45c4cba1f217f6a71f0371bf67",
+            "after": "29a17d2220ba9c6c739b2b931084293414db03423ee6c84eaae572b43e0fec45",
+            "size": 8352
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/de/site.php",
+            "before": "1385fb7e4f056d715459f84b7e75ee76ed30048979424e66303401d148594bb7",
+            "after": "adee63b8a20dd8ab822d6e2779b83a5891d0495a9dcfca60922791403f78df7c",
+            "size": 7266
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/en/site.php",
+            "before": "8e27c722180a1d5218ced98650f42c7aa3e5c7ea897ad23ffc76628028f2194a",
+            "after": "c8dd526165b826abe34f971375c328427c7c6a39d8ac29cd42f59a0bb544df2c",
+            "size": 10145
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/es/site.php",
+            "before": "b0cb4cc542bfc9a4593d3356897cc9cfda454fa629d53abc61a2eae314d2ce03",
+            "after": "9f98bd9ed8ac3f9f0b7e521d5a9930018eb1784ef93d7f6d50a233bdd900e24e",
+            "size": 7230
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/fr/site.php",
+            "before": "9329ef021074712883c8dfd18ebf0c0529b17decc05f0d77a4f69ad4f0149740",
+            "after": "c27fa88b57c8ee02322eb048466d6c3c065875e525d09050abcd998dadabfc3c",
+            "size": 7337
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/it/site.php",
+            "before": "0658004b5d8263d28600444d8e624470cb889026ca26d9b1cffd8389b0373b2f",
+            "after": "a749549d21f0e68e8e24759afe288898d6e9fc89fbcb83dcbecaed9092ab82ab",
+            "size": 7247
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ja/site.php",
+            "before": "4a3a0aeaa90991c941bebaeef056248a5993d7bce0fb6ca6ca79389cf1a6ab5f",
+            "after": "bf1cd8def492116ce5ac4c1ebb31f19f76dd790d0cf830fe4542a95be592ad68",
+            "size": 7681
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/pt/site.php",
+            "before": "7ae02b00ab67894bb4351784e2cfb4394beb8ecc6650306292f251eb19dcf146",
+            "after": "3319a200997f56ea61f1e3460ec2bc8d33761160d62aba53cdabf3362715a444",
+            "size": 7229
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ru/site.php",
+            "before": "42d90a93a82cba33feb4a3c03facf43253819f8db4b49cb43f902da82c48c848",
+            "after": "1ee508013618ff34d1e81b276acf9bf75c0c4af0fc6eefe8fa8623c5c7aacfc4",
+            "size": 8880
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/zh/site.php",
+            "before": "f6ba012a0b230a522c4404c167a030d1792e9a2d3424bab70e9c3bb06d226194",
+            "after": "c4e71d5d6d0078d91a64ddadd1b00bbb80ed077d40191661e679c9bda21bc079",
+            "size": 8751
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/app.css",
+            "before": "90b4a53eb989bf065c41ca47bedaf06f59c8089bca112bcc848dab796aef9289",
+            "after": "f45042e0e66748d2bdcbc8fea2a797528eb7c477ff9838c6722a87e2deb22cb4",
+            "size": 66941
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/product-detail.css",
+            "before": "f97623dd145926d84f23d6a42344ffb2dca3d9b1c17cb99d3733d003e2e8acb6",
+            "after": "343216fcf0eb39dab9d2e323aa21ccc4bb872d494e0aa8623451bdd3e103093e",
+            "size": 18924
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/css/pages/product-detail.sass",
+            "before": "910fffb5669e4237a653818ecb32ca98cfa61ef95c07abb2fc77b7106ee4e385",
+            "after": "e5c626f1f57a14252429b28ff3c8b7062265da82e12db76860b5b4f0fcccbf85",
+            "size": 19210
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/js/shipping-eta.js",
+            "before": "b09d6c9386c18ea26741e7dc78a31086cbfa9b1ae66f7f3dfa0f78bf2c1a5146",
+            "after": "481cc534db5046350a52c7a0d814cb4a41e2420d5df6a2b58e7c9567ccd49da6",
+            "size": 5929
+        },
+        {
+            "op": "modify",
+            "path": "templates/almi2026/product.html",
+            "before": "68d5237c144c380b7101865d6fcc37b92f36ba3e9fb3337ffec93515740b815c",
+            "after": "9bb34959eed51413b2f447520a56bbdc06349f3c532e8d0c502f9215943db60d",
+            "size": 30890
+        }
+    ]
+}
