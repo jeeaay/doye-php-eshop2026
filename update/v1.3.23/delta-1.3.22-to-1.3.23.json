@@ -1,0 +1,143 @@
+{
+    "schema": 1,
+    "from": "1.3.22",
+    "to": "1.3.23",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/api/controller/Aftersale.php",
+            "before": "33dc08aaf52df2dc1f50b3d5d62e1ef7fa788a7cc0fac860996589d2c374738a",
+            "after": "33ab6f75c5d9256151d30473385f595a5ca5870461f27913acb2e52763b99cec",
+            "size": 6713
+        },
+        {
+            "op": "modify",
+            "path": "app/api/controller/Order.php",
+            "before": "f5c1a4ecd5a2b8fc8d30d0400a9d197cca7ff9bda64705316ba841b9eac37c1b",
+            "after": "afa2a62a0a258f89a03cbaa34ac1c660c49ad0647558b021b649f1cfc7ced514",
+            "size": 12436
+        },
+        {
+            "op": "modify",
+            "path": "app/common/enum/AftersaleStatus.php",
+            "before": "970ec2442a101e73ffcb94b7b08887e5682b1bf4136245af611d72c0cfa94c9b",
+            "after": "d0bf2358d16818c3e2bd53a6a23848a8821defc1cc7f585855a5720b7452df0e",
+            "size": 941
+        },
+        {
+            "op": "modify",
+            "path": "app/common/enum/OrderStatus.php",
+            "before": "bfb43b48b80c62f6936410c0cdd81fe2d905656fed3352f7115701e5c3e8a6a9",
+            "after": "664232e93f7cb419a5dfb013c40db98488e4ccfc33346f318116d73518a34107",
+            "size": 1224
+        },
+        {
+            "op": "modify",
+            "path": "app/common/middleware/LocalePrefix.php",
+            "before": "aa9fc91e2930a7c32f909064b0bb7c3110b547f97c8323b8f0e0288c9f7e1759",
+            "after": "f4b1950993f9f4b01155496db4f9987c0bef2471fe2121ad813db4224b1b8462",
+            "size": 6059
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/CouponService.php",
+            "before": "fd6ebeddc658c08acc2fe2b49ccd135b2f3e662c2461349458f7c9d167b65488",
+            "after": "56f28a84c0ef922c394b9fd7aa6837543271205ca2da16dfcc2e1aea88f0359d",
+            "size": 76382
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/OrderService.php",
+            "before": "cd09f6b3782074f6247744cda701bfbeff14303932e466ff8b89fcfdce1d9fd6",
+            "after": "3e6ae9045661915d7c9b745c8ad8312ea487b284b126d9401faa9acbc36ee6e9",
+            "size": 20526
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/PaymentService.php",
+            "before": "778540dfeef2266a68a997e1230d4235c4dbf2b33fce0eaa88c6ada4441dbbfa",
+            "after": "3c44197ed08c1d2955395fc76a5b1842df98e93308491721124f643507bd7cac",
+            "size": 14620
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ar/site.php",
+            "before": "29a17d2220ba9c6c739b2b931084293414db03423ee6c84eaae572b43e0fec45",
+            "after": "14fbce3f89d420c4c9366ced7f96356106ccfcc2d9b4c07bff227b9dc71ef1db",
+            "size": 10250
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/de/site.php",
+            "before": "adee63b8a20dd8ab822d6e2779b83a5891d0495a9dcfca60922791403f78df7c",
+            "after": "c8ff35d2f0fec926e085f002ac0c0235ea92de1f6711820a3be138dbd21633d5",
+            "size": 8969
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/en/site.php",
+            "before": "c8dd526165b826abe34f971375c328427c7c6a39d8ac29cd42f59a0bb544df2c",
+            "after": "5ff7a503b0144335c9e9258774db236d4ea0026418a28233a572718ea847ca1b",
+            "size": 11735
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/es/site.php",
+            "before": "9f98bd9ed8ac3f9f0b7e521d5a9930018eb1784ef93d7f6d50a233bdd900e24e",
+            "after": "7a31fbdb7f1d8d42db28981542b2d766882e59598d13017059db2147f47e6be3",
+            "size": 8890
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/fr/site.php",
+            "before": "c27fa88b57c8ee02322eb048466d6c3c065875e525d09050abcd998dadabfc3c",
+            "after": "eb39f3d1a81e911ec222b8ccdca55bd34bb5951ac0abc8de1c713bf1430580f0",
+            "size": 9008
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/it/site.php",
+            "before": "a749549d21f0e68e8e24759afe288898d6e9fc89fbcb83dcbecaed9092ab82ab",
+            "after": "90c6eca7bf690e37d6d77be54a29b2c11c169ed067a1c2b835e10777109f8e5e",
+            "size": 8950
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ja/site.php",
+            "before": "bf1cd8def492116ce5ac4c1ebb31f19f76dd790d0cf830fe4542a95be592ad68",
+            "after": "10a9a05b56c7177a69eb57e8c55c01c4de568d4f0497562ecab579e6a6ed4abf",
+            "size": 9323
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/pt/site.php",
+            "before": "3319a200997f56ea61f1e3460ec2bc8d33761160d62aba53cdabf3362715a444",
+            "after": "51b3157a0b9b6184df37bed6cc6871ae8b8d11eb2f4994d9f90745e469f36985",
+            "size": 8910
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/ru/site.php",
+            "before": "1ee508013618ff34d1e81b276acf9bf75c0c4af0fc6eefe8fa8623c5c7aacfc4",
+            "after": "1a69346b3424d531f9860194c64597178b72dd15955301bdb14edf29ba1ce7ed",
+            "size": 10907
+        },
+        {
+            "op": "modify",
+            "path": "app/lang/zh/site.php",
+            "before": "c4e71d5d6d0078d91a64ddadd1b00bbb80ed077d40191661e679c9bda21bc079",
+            "after": "de5eb61afa1267d1ba63acfdfff282fdf492a375993e93dfa28a9d289a54c9b6",
+            "size": 10324
+        },
+        {
+            "op": "modify",
+            "path": "public/almi2026/js/store.js",
+            "before": "25859b890ded796b47c0022bb1f25a5a948f9498ccb0afc2478a777bb0efe294",
+            "after": "66c266f247ed55f1f764214942654173b56fcdfe30305658446365ee207db64f",
+            "size": 13147
+        }
+    ]
+}
