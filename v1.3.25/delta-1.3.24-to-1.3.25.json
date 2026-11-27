@@ -1,0 +1,52 @@
+{
+    "schema": 1,
+    "from": "1.3.24",
+    "to": "1.3.25",
+    "php_min": "8.0.0",
+    "db_version": "20261119110202",
+    "need_vendor": false,
+    "ops": [
+        {
+            "op": "modify",
+            "path": "app/admin/controller/Multilang.php",
+            "before": "0349bee71f24dd325b5f3c622423463cd6b2d5f6bd63973eb616d83909816ad4",
+            "after": "315e3663bd4f477c713d0b764ee8c2f1e9781434d0136c208a83e6d3c8e07b1d",
+            "size": 6705
+        },
+        {
+            "op": "add",
+            "path": "app/adminapi/controller/Language.php",
+            "before": null,
+            "after": "f14c0ac1b7f657fc5707cd3418fd9ceca4fb025e854e16df1af4ace2d5d33b94",
+            "size": 1812
+        },
+        {
+            "op": "modify",
+            "path": "app/adminapi/route/adminapi.php",
+            "before": "5d2569836b1159af8f709813ca105c211fbb1d0439cc211ab342418009655901",
+            "after": "38b287f005a1ab6b2679d2239702986f76d709fd58cf051cd321a35224dc44ba",
+            "size": 12713
+        },
+        {
+            "op": "modify",
+            "path": "app/common/service/LanguageService.php",
+            "before": "545847d7109bb70dff3ed9ffec22bbf290b6225f12538ad2156c8f5984660fe1",
+            "after": "8a3e188026d61dc65c75a33c9fbf25660a011e56ba7ee88a7c112b2ac6400d6a",
+            "size": 7195
+        },
+        {
+            "op": "modify",
+            "path": "docs/admin-api.md",
+            "before": "5051cbefb0bb402385db94fab73fc0d3c5ccacac5a03c8cb52c9b21a586be051",
+            "after": "e3858164bb72842c3ddd65f0368f6f84e03f681cb2ea4020042af38ae9b09fec",
+            "size": 63046
+        },
+        {
+            "op": "modify",
+            "path": "public/admin-api/openapi.yaml",
+            "before": "d24bf0f99df2b02b6d46a317b38467477cbdd737deb0d1e265a81b7c6cd90fea",
+            "after": "065752cd918d650564e42906755163b37e11bfda47e7149e9ca6a231e4d03997",
+            "size": 104658
+        }
+    ]
+}
